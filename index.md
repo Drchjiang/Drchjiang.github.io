@@ -36,8 +36,7 @@
 ## CV
 
 <!-- Button CV -->
-              <a href="javascript:;" target="_blank" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
-              <a href="download" download="./CV.pdf"></a>
+<a href="CV.pdf" download>download</a> 
       
       
 ## Contact Information
