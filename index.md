@@ -11,7 +11,7 @@
 1. Z. Hong, Y. Zou, Y. Li, L. Cai, Z. Chen, J. Zang, G. Bai, Y. Li, J. Chen, Y. Wu, <u>C. Jiang</u>, T. Song\*, B. Sun\*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, Adv. Opt. Mater.  (2022), <http://dx.doi.org/10.1002/adom.202200918>.
 
 ## Simulations
-* [lumerical FDTD 仿真不均匀量子点不均匀沉积]
+* [Lumerical FDTD 仿真不均匀量子点不均匀沉积]
 * [COMSOL 仿真固液接触水滴的带电变化]
 * [COMSOL 仿真水滴自由落体]
 * [COMSOL 仿真CoOx结构化促进水伏器件传输]
