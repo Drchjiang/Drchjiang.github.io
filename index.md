@@ -44,7 +44,7 @@
 ## CV
 
 <!-- Button CV -->
-<h3><a href="CV.pdf" download>download</a></h3>
+<h3><a href="CV.pdf" download>Download</a></h3>
       
       
 ## Contact Information
