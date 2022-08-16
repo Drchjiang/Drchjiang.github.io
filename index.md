@@ -49,6 +49,5 @@
 <img border="0" src="CV.pdf" alt="Wrong">
 </a>
 ## Contact Information
-+ Bilibili: [<strong>当时只道是-寻常-</strong>](<https://space.bilibili.com/390423616>)
-+ <a href="https://space.bilibili.com/390423616" target="_blank">当时只道是-寻常-</a> 
++ Bilibili: <strong><a href="https://space.bilibili.com/390423616" target="_blank">当时只道是-寻常-</a></strong>
 + E-mail: <strong>chjiang2020@163.com</strong>
