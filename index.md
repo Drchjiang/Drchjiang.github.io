@@ -17,4 +17,4 @@
 
 ## Contact Information
 
-+ E-mail: <b>chjiang2020@163.com</b>
++ E-mail: <strong>chjiang2020@163.com</strong>
