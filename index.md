@@ -12,7 +12,7 @@
 
 ## Simulations
 <meta name="referrer" 
-      content="no-referrer">
+ content="no-referrer">
 * [Lumerical FDTD 仿真不均匀量子点不均匀沉积]
 
   <center><img src="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog1.png" width="95%" alt="404"></center>
