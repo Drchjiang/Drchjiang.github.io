@@ -28,7 +28,7 @@
 * <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog5.gif" target="_blank"> COMSOL 仿真喷墨打印(gif)</a>
  <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog5.gif" target="_blank"> COMSOL 仿真喷墨打印</a>
 <br>   
-* <img style="width:10vw" src="img/blog7.png" alt="404">
+* <img style="width:10vw" src="_picture/blog7.png" alt="404">
       
 ## CV
 
