@@ -50,7 +50,7 @@
 ## Contact Information
 <br>
 <ul>
-      <li> Bilibili: <strong><a href="https://space.bilibili.com/390423616" target="_blank">当时只道是-寻常-</a></strong> </li>
+      <li> Bilibili: <strong><a href="https://space.bilibili.com/390423616/channel/seriesdetail?sid=365504&ctype=0" target="_blank">当时只道是-寻常-</a></strong> </li>
      <br>
       <li> E-mail: <strong>chjiang2020@163.com</strong></li>
 </ul>
