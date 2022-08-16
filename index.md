@@ -34,11 +34,9 @@
    
    <center><img src="./_picture/blog6.png"></center>
    
-* [COMSOL 仿真PCB微流控]
-
-   <center><img src="./_picture/blog7.png"></center>
-      <meta name="referrer" content="no-referrer">
-</head>
+ <img class="fit-picture"
+     src="./-picture/blog7.jpg"
+     alt="hub">
 ## CV
 
    <!-- Button CV -->
