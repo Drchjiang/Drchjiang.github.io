@@ -37,6 +37,8 @@
 
    <center><img src="_picture/blog7.png"></center>
 
+## CV
+   download
 ## Contact Information
 
 + E-mail: <strong>chjiang2020@163.com</strong>
