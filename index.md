@@ -44,7 +44,7 @@
 ## CV
 
    <!-- Button CV -->
-              <a target="CV." href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
+              <a target="CV.pdf" href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
 ## Contact Information
 
 + E-mail: <strong>chjiang2020@163.com</strong>
