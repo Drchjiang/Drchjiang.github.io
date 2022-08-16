@@ -11,6 +11,15 @@
 
 1. Z. Hong, Y. Zou, Y. Li, L. Cai, Z. Chen, J. Zang, G. Bai, Y. Li, J. Chen, Y. Wu, <u>C. Jiang</u>, T. Song\*, B. Sun\*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, Adv. Opt. Mater.  (2022), <http://dx.doi.org/10.1002/adom.202200918>.
 
+## Patents
+
+1. 一种硅异质结太阳能电池
+ 
+1. 一种引入纳米氧化锌保护的封装材料及其制备方法与应用
+ 
+1. 一种基于封装材料上制作电极构筑的多功能发电装置
+
+
 ## Simulations
      
 * <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog1.png" target="_blank"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a>
