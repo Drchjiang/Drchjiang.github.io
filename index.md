@@ -30,6 +30,7 @@
 * [COMSOL 仿真喷墨打印]
 
    <center><img src="_picture/blog5.gif"></center>
+   
    <center><img src="_picture/blog6.png"></center>
    
 * [COMSOL 仿真PCB微流控]
