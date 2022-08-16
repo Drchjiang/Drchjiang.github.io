@@ -29,7 +29,7 @@
 * <a href="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog5.gif" target="_blank"> COMSOL 仿真喷墨打印(gif)</a>
  <a href="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog5.gif" target="_blank"> COMSOL 仿真喷墨打印</a>
 <br>   
- <img class="fit-picture"
+* <img class="fit-picture"
      src="./_picture/blog7.jpg"
      alt="hub">
       
