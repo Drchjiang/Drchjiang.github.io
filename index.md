@@ -39,6 +39,8 @@
               <a href="javascript:;" target="CV.pdf" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
               <a href="download" download="CV.pdf">
 <img border="0" src="CV.pdf" alt="Wrong">
+     <a target="_blank" href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
+
 </a>
       
       
