@@ -28,9 +28,10 @@
 * <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog5.gif" target="_blank"> COMSOL 仿真喷墨打印(gif)</a>
  <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog6.jpg" target="_blank"> COMSOL 仿真喷墨打印</a>
      <br>   
+     
 * <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog7.png" target="_blank"> COMSOL 仿真PCB微流控</a>
      <br>
-* <img style="width:10vw" src="./_picture/blog7.png" alt="404">
+* <img src="./_picture/blog7.png" alt="404">
       
 ## CV
 
