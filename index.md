@@ -19,8 +19,10 @@
   <center><img src="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog1.png" width="95%" alt="404"></center>
   
 * <a href="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog2.png" target="_blank">COMSOL 仿真固液接触水滴的带电变化</a>
+<br>
   
 * <a href="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog3.gif" target="_blank">COMSOL 仿真水滴自由落体</a>
+<br>
  
 * [COMSOL 仿真CoOx结构化促进水伏器件传输]
 
