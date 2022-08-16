@@ -15,6 +15,9 @@
 
 1. Z. Hong, Y. Zou, Y. Li, L. Cai, Z. Chen, J. Zang, G. Bai, Y. Li, J. Chen, Y. Wu, <u>C. Jiang</u>, T. Song\*, B. Sun\*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, Adv. Opt. Mater.  (2022), <http://dx.doi.org/10.1002/adom.202200918>.
 
+## Simulation
+
+
 ## Contact Information
 
 + E-mail: <strong>chjiang2020@163.com</strong>
