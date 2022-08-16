@@ -7,9 +7,9 @@
 
 1. X. Chen, <u>C. Jiang</u>, Y. Song, B. Shao, Y. Wu, Z. Song, T. Song, Y. Wang\*, B. Sun\*, Integrating hydrovoltaic device with triboelectric nanogenerator to achieve simultaneous energy harvesting from water droplet and vapor, Nano Energy 100 (2022), <a href="http://dx.doi.org/10.1016/j.nanoen.2022.107495" target="_blank"> http://dx.doi.org/10.1016/j.nanoen.2022.107495</a>.
 
-1. J. Zang, L. Cai, Y. Zou, Y\*. Li, G. Bai, Z. Hong, Z. Chen, <u>C. Jiang</u>, Y. Song, X. Zeng, T. Song\*, B. Sun\*, Self‐Healing Perovskite Films Enabled by Fluorinated Cross‐Linked Network Targeting Flexible Light‐Emitting Diode, Adv. Opt. Mater.  (2022), <http://dx.doi.org/10.1002/adom.202200566>.
+1. J. Zang, L. Cai, Y. Zou, Y\*. Li, G. Bai, Z. Hong, Z. Chen, <u>C. Jiang</u>, Y. Song, X. Zeng, T. Song\*, B. Sun\*, Self‐Healing Perovskite Films Enabled by Fluorinated Cross‐Linked Network Targeting Flexible Light‐Emitting Diode, Adv. Opt. Mater.  (2022), <a href="http://dx.doi.org/10.1002/adom.202200566" target="_blank">http://dx.doi.org/10.1002/adom.202200566</a>.
 
-1. Z. Hong, Y. Zou, Y\*. Li, L. Cai, Z. Chen, J. Zang, G. Bai, Y. Li, J. Chen, Y. Wu, <u>C. Jiang</u>, T. Song\*, B. Sun\*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, Adv. Opt. Mater.  (2022), <http://dx.doi.org/10.1002/adom.202200918>.
+1. Z. Hong, Y. Zou, Y\*. Li, L. Cai, Z. Chen, J. Zang, G. Bai, Y. Li, J. Chen, Y. Wu, <u>C. Jiang</u>, T. Song\*, B. Sun\*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, Adv. Opt. Mater.  (2022), <a href="http://dx.doi.org/10.1002/adom.202200918" target="_blank">http://dx.doi.org/10.1002/adom.202200918</a>.
 
 ## Patents
 
