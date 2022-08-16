@@ -39,6 +39,9 @@
 
 ## CV
    download
+   
+   <!-- Button CV -->
+              <a target="_blank" href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
 ## Contact Information
 
 + E-mail: <strong>chjiang2020@163.com</strong>
