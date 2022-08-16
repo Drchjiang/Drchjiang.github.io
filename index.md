@@ -27,14 +27,15 @@
 <h1>Simulations</h1>
 
 <ul>
-<li><a href="_picture/blog1.html"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
-<li><a href="_picture/blog2.html"> COMSOL 仿真固液接触水滴的带电变化</a></li>
-<li><a href="_picture/blog3.html"> COMSOL 仿真水滴自由落体</a></li>
-<li><a href="_picture/blog4.html"> COMSOL 仿真CoOx结构化促进水伏器件传输</a></li>
-<li><a href="_picture/blog5.html"> COMSOL 仿真喷墨打印(gif)</a></li>
-<li><a href="_picture/blog6.html"> COMSOL 仿真喷墨打印</a> </li>
-<li><a href="_picture/blog7.html"> COMSOL 仿真PCB微流控</a></li>
+<li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog1.html"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
+<li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog2.html"> COMSOL 仿真固液接触水滴的带电变化</a></li>
+<li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog3.html"> COMSOL 仿真水滴自由落体</a></li>
+<li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog4.html"> COMSOL 仿真CoOx结构化促进水伏器件传输</a></li>
+<li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog5.html"> COMSOL 仿真喷墨打印(gif)</a></li>
+<li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog6.html"> COMSOL 仿真喷墨打印</a> </li>
+<li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog7.html"> COMSOL 仿真PCB微流控</a></li>
 </ul>
+
 
 <h1>cv</h1>
 
