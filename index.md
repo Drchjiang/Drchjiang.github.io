@@ -12,12 +12,29 @@
 
 ## Simulations
 * [Lumerical FDTD 仿真不均匀量子点不均匀沉积]
-  <img src="_picture/blog1.png" alt="404">
+
+  <center><img src="_picture/blog1.png" alt="404"></center>
+  
 * [COMSOL 仿真固液接触水滴的带电变化]
+
+  <center><img src="_picture/blog2.png"></center>
+  
 * [COMSOL 仿真水滴自由落体]
+
+ <center><img src="_picture/blog3.gif"></center> 
+ 
 * [COMSOL 仿真CoOx结构化促进水伏器件传输]
+
+  <center><img src="_picture/blog4.png"></center>
+  
 * [COMSOL 仿真喷墨打印]
+
+   <center><img src="_picture/blog5.gif"></center>
+   <center><img src="_picture/blog6.png"></center>
+   
 * [COMSOL 仿真PCB微流控]
+
+   <center><img src="_picture/blog7.png"></center>
 
 ## Contact Information
 
