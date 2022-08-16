@@ -46,5 +46,5 @@
    <!-- Button CV -->
               <a target="CV.pdf" href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
 ## Contact Information
-+ Bilibili: [当时只道是-寻常-](<https://space.bilibili.com/390423616> target="_blank")
++ Bilibili: [当时只道是-寻常-](<https://space.bilibili.com/390423616 target="_blank">)
 + E-mail: <strong>chjiang2020@163.com</strong>
