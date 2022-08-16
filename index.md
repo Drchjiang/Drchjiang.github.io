@@ -1,9 +1,4 @@
-## Welcome to GitHub Pages
-
-
----
-
-# Home
+## Welcome to my Academic Page
 
 ## Publications
 
