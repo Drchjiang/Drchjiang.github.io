@@ -45,7 +45,7 @@
 
    <!-- Button CV -->
               <a target="CV.pdf" href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
-              <a href="/i/w3school_logo_white.gif" download="3333">
+              <a href="download" download="CV.pdf">
 <img border="0" src="CV.pdf" alt="Wrong">
 </a>
 ## Contact Information
