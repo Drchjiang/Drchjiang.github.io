@@ -38,8 +38,7 @@
    <center><img src="_picture/blog7.png"></center>
 
 ## CV
-   download
-   
+
    <!-- Button CV -->
               <a target="_blank" href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
 ## Contact Information
