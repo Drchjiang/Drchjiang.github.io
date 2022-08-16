@@ -37,6 +37,7 @@
  <img class="fit-picture"
      src="./_picture/blog7.jpg"
      alt="hub">
+      
 ## CV
 
    <!-- Button CV -->
@@ -44,6 +45,8 @@
               <a href="download" download="CV.pdf">
 <img border="0" src="CV.pdf" alt="Wrong">
 </a>
+      
+      
 ## Contact Information
 + Bilibili: <strong><a href="https://space.bilibili.com/390423616" target="_blank">当时只道是-寻常-</a></strong>
 + E-mail: <strong>chjiang2020@163.com</strong>
