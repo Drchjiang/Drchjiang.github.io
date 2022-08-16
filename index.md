@@ -31,8 +31,10 @@
      
 * <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog7.png" target="_blank"> COMSOL 仿真PCB微流控</a>
      <br>
-* <img src="./_picture/blog7.png" alt="404">
-* <a href="./img/blog7.png" > COMSOL 仿真PCB微流控</a>
+
+* <a href="./_picture/blog7.png" > COMSOL 仿真PCB微流控</a>
+
+* <a href="./_picture/blog7.png" target="_blank"> COMSOL 仿真PCB微流控</a>
       
 ## CV
 
