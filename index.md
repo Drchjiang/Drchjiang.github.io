@@ -43,7 +43,7 @@
 
 ## CV
 
-<!-- Button CV -->
+<!-- download CV -->
 <h3><a href="CV.pdf" download>Download</a></h3>
       
       
