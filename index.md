@@ -1,4 +1,4 @@
-###   Welcome to My Academic Page
+
 <h1> Welcome to My Academic Page</h1>
 
 ## Publications
