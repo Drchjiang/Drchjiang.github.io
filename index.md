@@ -35,6 +35,10 @@
 * <a href="./_picture/blog7.png" > COMSOL 仿真PCB微流控</a>
 
 * <a href="./_picture/blog7.png" target="_blank"> COMSOL 仿真PCB微流控</a>
+
+* <a href="../_picture/blog7.png" target="_blank"> COMSOL 仿真PCB微流控</a>
+
+* <a href="_picture/blog7.png" target="_blank"> COMSOL 仿真PCB微流控</a>
       
 ## CV
 
