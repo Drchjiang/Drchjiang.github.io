@@ -28,7 +28,7 @@
   
 * <a href="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog5.gif" target="_blank"> COMSOL 仿真喷墨打印(gif)</a>
  <a href="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog5.gif" target="_blank"> COMSOL 仿真喷墨打印</a>
-   
+<br>   
  <img class="fit-picture"
      src="./_picture/blog7.jpg"
      alt="hub">
@@ -36,7 +36,7 @@
 ## CV
 
    <!-- Button CV -->
-              <a target="CV.pdf" href="javascript:;" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
+              <a href="javascript:;" target="CV.pdf" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">Download CV</a>
               <a href="download" download="CV.pdf">
 <img border="0" src="CV.pdf" alt="Wrong">
 </a>
