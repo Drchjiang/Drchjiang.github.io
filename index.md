@@ -1,3 +1,4 @@
+
 ## Welcome to My Academic Page
 
 ## Publications
@@ -12,8 +13,7 @@
 
 ## Simulations
 <head>
-      <meta name="referrer" content="no-referrer">
-  </head>
+      
 * [Lumerical FDTD 仿真不均匀量子点不均匀沉积]
 
   <center><img src="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog1.png" width="95%" alt="404"></center>
@@ -39,7 +39,8 @@
 * [COMSOL 仿真PCB微流控]
 
    <center><img src="_picture/blog7.png"></center>
-
+      <meta name="referrer" content="no-referrer">
+</head>
 ## CV
 
    <!-- Button CV -->
