@@ -15,7 +15,7 @@
       content="no-referrer">
 * [Lumerical FDTD 仿真不均匀量子点不均匀沉积]
 
-  <center><img src="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog1.png" alt="404"></center>
+  <center><img src="https://github.com/Drchjiang/Drchjiang.github.io/blob/main/_picture/blog1.png" width="95%" alt="404"></center>
   
 * [COMSOL 仿真固液接触水滴的带电变化]
 
