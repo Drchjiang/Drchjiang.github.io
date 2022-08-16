@@ -32,14 +32,6 @@
 * <a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog7.png" target="_blank"> COMSOL 仿真PCB微流控</a>
      <br>
 
-* <a href="./main/_picture/blog7.png" > 1 仿真PCB微流控</a>
-
-* <a href="./main/_picture/blog7.png" target="_blank"> 2 仿真PCB微流控</a>
-
-* <a href="../main/_picture/blog7.png" target="_blank"> 3 仿真PCB微流控</a>
-
-* <a href="main/_picture/blog7.png" target="_blank"> 4 仿真PCB微流控</a>
-      
 ## CV
 
 <!-- Button CV -->
