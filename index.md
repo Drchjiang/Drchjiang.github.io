@@ -35,7 +35,7 @@
    <center><img src="./_picture/blog6.png"></center>
    
  <img class="fit-picture"
-     src="./-picture/blog7.jpg"
+     src="./_picture/blog7.jpg"
      alt="hub">
 ## CV
 
