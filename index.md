@@ -30,13 +30,13 @@
 <h2>Simulations</h2>
 
 <ul>
-    <li><a href="./pciture/blog1.png"   target="_blank"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
-    <li><a href="./pciture/blog2.png"   target="_blank"> COMSOL 仿真固液接触水滴的带电变化</a></li>
-    <li><a href="./pciture/blog3.gif"   target="_blank"> COMSOL 仿真水滴自由落体</a></li>
-    <li><a href="./pciture/blog4.png"   target="_blank"> COMSOL 仿真CoOx结构化促进水伏器件传输</a></li>
-    <li><a href="./pciture/blog5.gif"   target="_blank"> COMSOL 仿真喷墨打印(gif)</a></li>
-    <li><a href="./pciture/blog6.jpg"   target="_blank"> COMSOL 仿真喷墨打印</a> </li>
-    <li><a href="./pciture/blog7.png"   target="_blank"> COMSOL 仿真PCB微流控</a></li>
+    <li><a href="./picture/blog1.png"   target="_blank"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
+    <li><a href="./picture/blog2.png"   target="_blank"> COMSOL 仿真固液接触水滴的带电变化</a></li>
+    <li><a href="./picture/blog3.gif"   target="_blank"> COMSOL 仿真水滴自由落体</a></li>
+    <li><a href="./picture/blog4.png"   target="_blank"> COMSOL 仿真CoOx结构化促进水伏器件传输</a></li>
+    <li><a href="./picture/blog5.gif"   target="_blank"> COMSOL 仿真喷墨打印(gif)</a></li>
+    <li><a href="./picture/blog6.jpg"   target="_blank"> COMSOL 仿真喷墨打印</a> </li>
+    <li><a href="./picture/blog7.png"   target="_blank"> COMSOL 仿真PCB微流控</a></li>
 </ul>
 
 <h2>CV</h2>
