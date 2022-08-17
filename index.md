@@ -3,6 +3,7 @@
 
 <h1>Publications</h1>
 
+<!-- 有序排列 -->
 <ol>
     <li>C. Zhang, M. Wang, <strong><u>C. Jiang</u></strong>, P. Zhu, B. Sun, Q. Gao, C. Gao\*, R. Liu\*, Highly adhesive and self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics, Nano Energy 95 (2022).<br>
 <a href="http://dx.doi.org/10.1016/j.nanoen.2022.106991"  target="_blank">Highly adhesive and self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics</a></li>
@@ -18,6 +19,7 @@
 
 <h1>Patents</h1>
 
+<!-- 无序排列 -->
 <ol>
     <li>一种硅异质结太阳能电池</li>
     <li>一种引入纳米氧化锌保护的封装材料及其制备方法与应用</li>
@@ -47,4 +49,6 @@
       <li> Bilibili: <strong><a href="https://space.bilibili.com/390423616/channel/seriesdetail?sid=365504&ctype=0" target="_blank">当时只道是-寻常-</a></strong> </li>
       <li> E-mail: <strong>chjiang2020@163.com</strong></li>
 </ul>
+
+<!-- 底部空行 -->
 <div style="margin-top: 100px;"></div>
