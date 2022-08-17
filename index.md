@@ -42,7 +42,7 @@
 
 <h2>CV</h2>
 
-<h3><a href="CV.pdf" download>我的简历下载</a></h3>     
+<h4><a href="CV.pdf" download>我的简历下载</a></h4>     
 
 <h2>Contact Information</h2>
 
