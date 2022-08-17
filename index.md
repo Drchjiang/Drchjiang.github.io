@@ -1,4 +1,3 @@
-
     <h1> Welcome to My Academic Page</h1>
 
     <h2>Publications</h2>
@@ -30,7 +29,6 @@
 
     <h2>Simulations</h2>
 
-    <!-- 有序排列，点击打开 -->
     <ul>
         <li><a href="./pciture/blog1.png"   target="_blank"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
         <li><a href="./pciture/blog2.png"   target="_blank"> COMSOL 仿真固液接触水滴的带电变化</a></li>
@@ -55,4 +53,3 @@
 
     <!-- 底部空行 -->
     <div style="margin-top: 100px;"></div>
-
