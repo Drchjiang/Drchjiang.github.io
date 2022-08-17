@@ -1,23 +1,23 @@
 
 <h1> Welcome to My Academic Page</h1>
 
-<h1>Publications</h1>
+<h2>Publications</h2>
 
 <!-- 有序排列 -->
 <ol>
     <li>C. Zhang, M. Wang, <strong><u>C. Jiang</u></strong>, P. Zhu, B. Sun, Q. Gao, C. Gao\*, R. Liu\*, Highly adhesive and self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics, Nano Energy 95 (2022).<br>
-<a href="http://dx.doi.org/10.1016/j.nanoen.2022.106991"  target="_blank">Highly adhesive and self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics</a></li>
+<a href="http://dx.doi.org/10.1016/j.nanoen.2022.106991"  target="_blank">http://dx.doi.org/10.1016/j.nanoen.2022.106991</a></li>
     <li>X. Chen, <strong><u>C. Jiang</u></strong>, Y. Song, B. Shao, Y. Wu, Z. Song, T. Song, Y. Wang\*, B. Sun\*, Integrating hydrovoltaic device with triboelectric nanogenerator to achieve simultaneous energy harvesting from water droplet and vapor, Nano Energy 100 (2022).<br>
-<a href="http://dx.doi.org/10.1016/j.nanoen.2022.107495" target="_blank">Integrating hydrovoltaic device with triboelectric nanogenerator to achieve simultaneous energy harvesting from water droplet and vapor</a>
+<a href="http://dx.doi.org/10.1016/j.nanoen.2022.107495" target="_blank">http://dx.doi.org/10.1016/j.nanoen.2022.107495</a>
     <li>J. Zang, L. Cai, Y. Zou, Y\*. Li, G. Bai, Z. Hong, Z. Chen, <strong><u>C. Jiang</u></strong>, Y. Song, X. Zeng, T. Song\*, B. Sun\*, Self‐Healing Perovskite Films Enabled by Fluorinated Cross‐Linked Network Targeting Flexible Light‐Emitting Diode, Adv. Opt. Mater.  (2022).<br>
-     <a href="http://dx.doi.org/10.1002/adom.202200566"        target="_blank">Self-Healing Perovskite Films Enabled by Fluorinated Cross-Linked Network Targeting Flexible Light-Emitting Diode</a>   
+     <a href="http://dx.doi.org/10.1002/adom.202200566"        target="_blank">http://dx.doi.org/10.1002/adom.202200566</a>   
     </li>
     <li>Z. Hong, Y. Zou, Y\*. Li, L. Cai, Z. Chen, J. Zang, G. Bai, Y. Li, J. Chen, Y. Wu, <strong><u>C. Jiang</u></strong>, T. Song\*, B. Sun\*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, Adv. Opt. Mater.  (2022).<br>
-    <a href="http://dx.doi.org/10.1002/adom.202200918"    target="_blank">In Situ Ligand-Exchange in Solid Quantum Dots Film Enables Stacked White Light-Emitting Diodes</a>    
+    <a href="http://dx.doi.org/10.1002/adom.202200918"    target="_blank">http://dx.doi.org/10.1002/adom.202200918</a>    
     </li>
 </ol>
 
-<h1>Patents</h1>
+<h2>Patents</h2>
 
 <!-- 无序排列 -->
 <ol>
@@ -26,7 +26,7 @@
     <li>一种基于封装材料上制作电极构筑的多功能发电装置</li>
 </ol>
 
-<h1>Simulations</h1>
+<h2>Simulations</h2>
 
 <ul>
 <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog1.html"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
@@ -39,12 +39,13 @@
 </ul>
 
 
-<h1>cv</h1>
+<h2>CV</h2>
 
 <h3><a href="CV.pdf" download>我的简历下载</a></h3>     
 
-<h1>Contact Information</h1>
+<h2>Contact Information</h2>
 
+<!-- 无序排列 -->
 <ul>
       <li> Bilibili: <strong><a href="https://space.bilibili.com/390423616/channel/seriesdetail?sid=365504&ctype=0" target="_blank">当时只道是-寻常-</a></strong> </li>
       <li> E-mail: <strong>chjiang2020@163.com</strong></li>
