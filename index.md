@@ -43,6 +43,10 @@
     <li><a href="../picture/blog4.png"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
     <li><a href="./main/picture/blog4.png"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
     <li><a href="./blog1.png"> COMSOL 仿真固液接触水滴的带电变化</a></li>
+    <img src="./picture/blog4.png" alt="404">
+    <img src="../picture/blog4.png" alt="404">
+    <img src="./main/picture/blog4.png" alt="404">
+    <img src="./blog1.png" alt="404">
 </ul>
 
 
