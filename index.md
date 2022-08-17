@@ -37,6 +37,7 @@
     <li><a href="./picture/blog5.gif"   target="_blank"> COMSOL 仿真喷墨打印(.gif)</a></li>
     <li><a href="./picture/blog6.jpg"   target="_blank"> COMSOL 仿真喷墨打印</a> </li>
     <li><a href="./picture/blog7.png"   target="_blank"> COMSOL 仿真PCB微流控</a></li>
+    <li><a href="./picture/blog8.png"   target="_blank"> COMSOL 仿真芯片散热</a></li>
 </ul>
 
 <h2>CV</h2>
