@@ -31,26 +31,14 @@
 <h2>Simulations</h2>
 
 <ul>
-    <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog1.html"> Lumerical FDTD 仿        真不均匀量子点不均匀沉积</a></li>
-    <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog2.html"> COMSOL 仿真固液接        触水滴的带电变化</a></li>
-    <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog3.html"> COMSOL 仿真水滴自        由落体</a></li>
-    <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog4.html"> COMSOL 仿真CoOx结          构化促进水伏器件传输</a></li>
-    <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog5.html"> COMSOL 仿真喷墨打        印(gif)</a></li>
-    <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog6.html"> COMSOL 仿真喷墨打        印</a> </li>
-    <li><a href="https://raw.githubusercontent.com/Drchjiang/Drchjiang.github.io/main/_picture/blog7.html"> COMSOL 仿真PCB微流          控</a></li>
+    <li><a href="./pciture/blog1.png"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
+    <li><a href="./pciture/blog2.png"> COMSOL 仿真固液接触水滴的带电变化</a></li>
+    <li><a href="./pciture/blog3.gif"> COMSOL 仿真水滴自由落体</a></li>
+    <li><a href="./pciture/blog4.png"> COMSOL 仿真CoOx结构化促进水伏器件传输</a></li>
+    <li><a href="./pciture/blog5.gif"> COMSOL 仿真喷墨打印(gif)</a></li>
+    <li><a href="./pciture/blog6.jpg"> COMSOL 仿真喷墨打印</a> </li>
+    <li><a href="./pciture/blog7.png"> COMSOL 仿真PCB微流控</a></li>
 </ul>
-
-<ul>
-    <li><a href="./picture/blog4.png"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
-    <li><a href="../picture/blog4.png"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
-    <li><a href="./main/picture/blog4.png"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
-    <li><a href="./blog1.png"> COMSOL 仿真固液接触水滴的带电变化</a></li>
-    <img src="./picture/blog4.png" alt="404">
-    <img src="../picture/blog4.png" alt="404">
-    <img src="./main/picture/blog4.png" alt="404">
-    <img src="./blog1.png" alt="404">
-</ul>
-
 
 <h2>CV</h2>
 
