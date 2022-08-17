@@ -1,4 +1,4 @@
-<body>
+
     <h1> Welcome to My Academic Page</h1>
 
     <h2>Publications</h2>
@@ -55,4 +55,4 @@
 
     <!-- 底部空行 -->
     <div style="margin-top: 100px;"></div>
-</body>
+
