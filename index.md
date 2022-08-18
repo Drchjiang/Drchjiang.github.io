@@ -35,9 +35,9 @@
     <li><a href="./picture/blog3.gif"   target="_blank"> COMSOL 仿真水滴自由落体(.gif)</a></li>
     <li><a href="./picture/blog4.png"   target="_blank"> COMSOL 仿真CoOx结构化促进水伏器件传输</a></li>
     <li><a href="./picture/blog5.gif"   target="_blank"> COMSOL 仿真喷墨打印(.gif)</a></li>
-    <li><a href="./picture/blog6.jpg"   target="_blank"> COMSOL 仿真喷墨打印</a> </li>
+    <li><a href="./picture/blog6.jpg"   target="_blank"> COMSOL 仿真喷墨打印</a></li>
     <li><a href="./picture/blog7.png"   target="_blank"> COMSOL 仿真PCB微流控</a></li>
-    <li><a href="./picture/blog8.png"   target="_blank"> COMSOL 仿真芯片散热</a></li>
+    <li><a href="./picture/blog8.jpg"   target="_blank"> COMSOL 仿真芯片散热</a></li>
 </ul>
 
 <h2>CV</h2>
