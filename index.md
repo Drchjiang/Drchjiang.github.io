@@ -23,14 +23,14 @@
 <!-- 无序排列 -->
 <ol>
     <li>一种硅异质结太阳能电池</li>
-    <li>一种引入纳米氧化锌保护的封装材料及其制备方法与应用</li>
+    <li>一种引入纳米氧化锌保护的封装材料及其制备方法与应用(已授权)</li>
     <li>一种基于封装材料上制作电极构筑的多功能发电装置</li>
 </ol>
 
 <h2>Simulations</h2>
 
 <ul>
-    <li><a href="./picture/blog1.png"   target="_blank"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
+    <li><a href="./picture/blog1.tif"   target="_blank"> Lumerical FDTD 仿真不均匀量子点不均匀沉积</a></li>
     <li><a href="./picture/blog2.png"   target="_blank"> COMSOL 仿真固液接触水滴的带电变化</a></li>
     <li><a href="./picture/blog3.gif"   target="_blank"> COMSOL 仿真水滴自由落体(.gif)</a></li>
     <li><a href="./picture/blog4.png"   target="_blank"> COMSOL 仿真CoOx结构化促进水伏器件传输</a></li>
