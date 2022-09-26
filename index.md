@@ -4,7 +4,7 @@
 
 <!-- 有序排列 -->
 <ol>
-    <li><strong><u>Conghui Jiang</u></strong>, Guohua Zhang, Zhiwei Hong, Jiangyu Chen, Ya Li, Xianrong Yuan, Yinyue Lin, Cao Yu, Tao Wang, Tao Song*, Yusheng Wang*, Baoquan Sun* ,Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots,<strong><i>Advanced Materials</i></strong>. (Under review)
+    <li><strong><u>Conghui Jiang</u></strong>, Guohua Zhang, Zhiwei Hong, Jiangyu Chen, Ya Li, Xianrong Yuan, Yinyue Lin, Cao Yu, Tao Wang, Tao Song*, Yusheng Wang*, Baoquan Sun* , Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots,<strong><i>Advanced Materials</i></strong>. (Under review)
     </li>
     <li>Chenyang Zhang#, Mingxu Wang#, <strong><u>Conghui Jiang</u></strong>, Peizhi Zhu, Baoquan Sun,
 Qiang Gao*, Chunxia Gao*, Ruiyuan Liu*, Highly adhesive and          self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics, <strong><i>Nano Energy</i></strong>. 2022, 95, 106991<br>
