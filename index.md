@@ -4,10 +4,14 @@
 
 <!-- 有序排列 -->
 <ol>
-    <li>C. Zhang, M. Wang, <strong><u>C. Jiang</u></strong>, P. Zhu, B. Sun, Q. Gao, C. Gao*, R. Liu*, Highly adhesive and          self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics, <strong><i>Nano Energy</i></strong>. 2022, 95, 106991<br>
+    <li> ,Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots
+    
+    <li>Chenyang Zhang#, Mingxu Wang#, <strong><u>Conghui Jiang</u></strong>, Peizhi Zhu, Baoquan Sun,
+Qiang Gao*, Chunxia Gao*, Ruiyuan Liu*, Highly adhesive and          self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics, <strong><i>Nano Energy</i></strong>. 2022, 95, 106991<br>
     <a href="http://dx.doi.org/10.1016/j.nanoen.2022.106991"            target="_blank">http://dx.doi.org/10.1016/j.nanoen.2022.106991</a>.<strong>(JCR:Q1)</strong>
     </li>
-    <li>X. Chen, <strong><u>C. Jiang</u></strong>, Y. Song, B. Shao, Y. Wu, Z. Song, T. Song, Y. Wang*, B. Sun*, Integrating        hydrovoltaic device with triboelectric nanogenerator to achieve simultaneous energy harvesting from water droplet and        vapor, <strong><i>Nano Energy</i></strong>. 2022, 100, 107495<br>
+    <li>Xin Chen, <strong><u>Conghui Jiang</u></strong>, Yuhang Song, Beibei Shao, Yanfei Wu, Zheheng Song,
+Tao Song, Yusheng Wang*, Baoquan Sun*, Integrating        hydrovoltaic device with triboelectric nanogenerator to achieve simultaneous energy harvesting from water droplet and        vapor, <strong><i>Nano Energy</i></strong>. 2022, 100, 107495<br>
     <a href="http://dx.doi.org/10.1016/j.nanoen.2022.107495" target="_blank">http://dx.doi.org/10.1016/j.nanoen.2022.107495</a>.<strong>(JCR:Q1)</strong>
     </li>
     <li>J. Zang, L. Cai, Y. Zou*, Y. Li, G. Bai, Z. Hong, Z. Chen, <strong><u>C. Jiang</u></strong>, Y. Song, X. Zeng, T.           Song*, B. Sun*, Self‐Healing Perovskite Films Enabled by Fluorinated Cross‐Linked Network Targeting Flexible Light‐             Emitting Diode, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10, 2200566<br>
