@@ -31,13 +31,13 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,
 <!-- 无序排列 -->
 <ol>
     <li>一种硅异质结太阳能电池</li>
-    <li>一种引入纳米氧化锌保护的封装材料及其制备方法与应用(<strong>已授权：CN 113234249 A</strong>)</li>
+    <li>一种引入纳米氧化锌保护的封装材料及其制备方法与应用(<strong>已授权：CN 113234249 B</strong>)</li>
     <li>一种基于封装材料上制作电极构筑的多功能发电装置</li>
 </ol>
 
 <h2>Conference Report</h2>
 
-<h4>Conghui Jiang Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots. 18th CSPV, Taiyuan in Shanxi Province.</h4>
+<h4><strong>Conghui Jiang</strong> Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots. 18th CSPV, Taiyuan in Shanxi Province.</h4>
 
 <h2>Simulations</h2>
 
