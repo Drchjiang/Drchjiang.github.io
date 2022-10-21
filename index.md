@@ -37,7 +37,7 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,
 
 <h2>Conference Report</h2>
 
-<h4><strong>Conghui Jiang</strong> Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots. 18th CSPV, Taiyuan in Shanxi Province.</h4>
+<h4> <strong> Conghui Jiang </strong> Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots. 18th CSPV, Taiyuan in Shanxi Province. </h4>
 
 <h2>Simulations</h2>
 
