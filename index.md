@@ -35,6 +35,10 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,
     <li>一种基于封装材料上制作电极构筑的多功能发电装置</li>
 </ol>
 
+<h2>Conference Report</h2>
+
+<h4>Conghui Jiang Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots. 18th CSPV, Taiyuan in Shanxi Province.</h4>
+
 <h2>Simulations</h2>
 
 <ul>
