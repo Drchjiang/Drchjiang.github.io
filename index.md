@@ -20,7 +20,7 @@ Tao Song, Yusheng Wang*, Baoquan Sun*, Integrating        hydrovoltaic device wi
        target="_blank">http://dx.doi.org/10.1002/adom.202200566</a>.<strong>(JCR:Q1)</strong>   
     </li>
     <li>Zhiwei Hong, Yatao Zou,* Yajuan Li, Lei Cai, Zhewei Chen, Jiaqing Zang, Guilin Bai,
-Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,* and Baoquan Sun*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, <strong><i>Adv.Optical Mater</i></strong>. 2022, 2200918
+Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,* and Baoquan Sun*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10,  2200918
     <a href="http://dx.doi.org/10.1002/adom.202200918"    
        target="_blank">http://dx.doi.org/10.1002/adom.202200918</a>.<strong>(JCR:Q1)</strong>   
     </li>
