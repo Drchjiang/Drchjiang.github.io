@@ -14,9 +14,8 @@ Qiang Gao*, Chunxia Gao*, Ruiyuan Liu*, Highly adhesive and          self-healin
 Tao Song, Yusheng Wang*, Baoquan Sun*, Integrating        hydrovoltaic device with triboelectric nanogenerator to achieve simultaneous energy harvesting from water droplet and        vapor, <strong><i>Nano Energy</i></strong>. 2022, 100, 107495
     <a href="http://dx.doi.org/10.1016/j.nanoen.2022.107495" target="_blank">http://dx.doi.org/10.1016/j.nanoen.2022.107495</a>.<strong>(JCR:Q1)</strong>
     </li>
-	</li>
     <li>Beibei Shao, Chunfang Xing, Yuhang Song, <strong><u>Conghui Jiang</u></strong>, Guilin Bai, Tao Song,Ruiyuan Liu*, Yusheng Wang*, Baoquan Sun*, Boosting electrical output of nanostructured silicon hydrovoltaic device via cobalt oxide enabled electrode surface contact, <strong><i>Nano Energy</i></strong>. 2023, 106, 108081
-    <a href="https://www.sciencedirect.com/science/article/pii/S2211285522011594?via%3Dihub" target="_blank">https://www.sciencedirect.com/science/article/pii/S2211285522011594?via%3Dihub</a>.<strong>(JCR:Q1)</strong>
+    <a href="https://doi.org/10.1016/j.nanoen.2022.108081" target="_blank">https://doi.org/10.1016/j.nanoen.2022.108081</a>.<strong>(JCR:Q1)</strong>
     </li>
     <li>Jiaqing Zang, Lei Cai, Yatao Zou*,Ya Li, Guilin Bai, Zhiwei Hong, Zhewei Chen,
 <strong><u>Conghui Jiang</u></strong>, Yuhang Song, Xuelian Zeng, Tao Song*, and Baoquan Sun*, Self‐Healing Perovskite Films Enabled by Fluorinated Cross‐Linked Network Targeting Flexible Light‐             Emitting Diode, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10, 2200566
