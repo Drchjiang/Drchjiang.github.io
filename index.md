@@ -4,8 +4,8 @@
 
 <!-- 有序排列 -->
 <ol>
-    <li><strong><u>Conghui Jiang</u></strong>, Guohua Zhang, Zhiwei Hong, Jiangyu Chen, Ya Li, Xianrong Yuan, Yinyue Lin, Cao Yu, Tao Wang, Tao Song*, Yusheng Wang*, Baoquan Sun* , Colored Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots, <strong><i>Advanced Materials</i></strong>. 
-	    <a href="https://onlinelibrary.wiley.com/doi/10.1002/adma.202208042"            target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/adma.202208042</a>.<strong>(JCR:Q1)</strong>
+    <li><strong><u>Conghui Jiang</u></strong>, Guohua Zhang, Zhiwei Hong, Jiangyu Chen, Ya Li, Xianrong Yuan, Yinyue Lin, Cao Yu, Tao Wang, Tao Song*, Yusheng Wang*, Baoquan Sun* , Colored Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots, <strong><i>Advanced Materials</i></strong>. 2023, 35, 2208042
+	    <a href="https://doi.org/10.1002/adma.202208042"            target="_blank">https://onlinelibrary.wiley.com/doi/10.1002/adma.202208042</a>.<strong>(JCR:Q1)</strong>
     </li>
     <li>Chenyang Zhang#, Mingxu Wang#, <strong><u>Conghui Jiang</u></strong>, Peizhi Zhu, Baoquan Sun,
 Qiang Gao*, Chunxia Gao*, Ruiyuan Liu*, Highly adhesive and          self-healing γ-PGA/PEDOT:PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics, <strong><i>Nano Energy</i></strong>. 2022, 95, 106991
@@ -66,7 +66,7 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,
 
 <!-- 无序排列 -->
 <ul>
-    <li> Bilibili: <strong><a href="https://space.bilibili.com/390423616/channel/seriesdetail?sid=365504&ctype=0" target="_blank">当时只道是-寻常-</a></strong> </li>
+    <li> Bilibili: <strong><a href="https://space.bilibili.com/390423616/channel/collectiondetail?sid=737738" target="_blank">当时只道是-寻常-</a></strong> </li>
     <li> E-mail: <strong>chjiang2020@163.com</strong></li>
 </ul>
 
