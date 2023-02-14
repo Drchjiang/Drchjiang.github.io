@@ -43,7 +43,7 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,
 
 <h2>Conference Report</h2>
 
-<strong><u> Conghui Jiang </u></strong>  Colorful Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots. <strong><i> 18th CSPV </i></strong>, Taiyuan in Shanxi Province. 
+<strong><u> Conghui Jiang </u></strong>  Building Integrated PV with Inkjet Printing Luminescent Downshift QDs for SHJ SCs. <strong><i> 第十八届中国太阳级硅及光伏发电研讨会 </i></strong>, 山西太原. 
 
 <h2>Simulations</h2>
 
