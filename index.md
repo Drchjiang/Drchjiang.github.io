@@ -4,7 +4,7 @@
 
 <!-- 有序排列 -->
 <ol>
-    <li><strong><u>Conghui Jiang</u></strong>, Guohua Zhang, Zhiwei Hong, Jiangyu Chen, Ya Li, Xianrong Yuan, Yinyue Lin, Cao Yu, Tao Wang, Tao Song*, Yusheng Wang*, Baoquan Sun* , Colored Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots, <strong><i>Advanced Materials</i></strong>. 2023, 35, 2208042
+    <li><strong><u>Conghui Jiang</u></strong>, Guohua Zhang, Zhiwei Hong, Jiangyu Chen, Ya Li, Xianrong Yuan, Yinyue Lin, Cao Yu, Tao Wang, Tao Song*, Yusheng Wang*, Baoquan Sun*, Colored Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots, <strong><i>Advanced Materials</i></strong>. 2023, 35, 2208042
 	    <a href="https://doi.org/10.1002/adma.202208042"            target="_blank">https://doi.org/10.1002/adma.202208042</a>.<strong>(JCR:Q1)</strong>
     </li>
     <li>Chenyang Zhang#, Mingxu Wang#, <strong><u>Conghui Jiang</u></strong>, Peizhi Zhu, Baoquan Sun,
@@ -25,8 +25,8 @@ Tao Song, Yusheng Wang*, Baoquan Sun*, Integrating        hydrovoltaic device wi
     <a href="http://dx.doi.org/10.1002/adom.202200566"        
        target="_blank">http://dx.doi.org/10.1002/adom.202200566</a>.<strong>(JCR:Q1)</strong>   
     </li>
-    <li>Zhiwei Hong, Yatao Zou,* Yajuan Li, Lei Cai, Zhewei Chen, Jiaqing Zang, Guilin Bai,
-Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song,* and Baoquan Sun*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10,  2200918
+    <li>Zhiwei Hong, Yatao Zou*, Yajuan Li, Lei Cai, Zhewei Chen, Jiaqing Zang, Guilin Bai,
+Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*, and Baoquan Sun*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10,  2200918
     <a href="http://dx.doi.org/10.1002/adom.202200918"    
        target="_blank">http://dx.doi.org/10.1002/adom.202200918</a>.<strong>(JCR:Q1)</strong>   
     </li>
