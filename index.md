@@ -18,6 +18,8 @@ Tao Song, Yusheng Wang*, Baoquan Sun*, Integrating        hydrovoltaic device wi
     <li>Beibei Shao, Chunfang Xing, Yuhang Song, <strong><u>Conghui Jiang</u></strong>, Guilin Bai, Tao Song,Ruiyuan Liu*, Yusheng Wang*, Baoquan Sun*, Boosting electrical output of nanostructured silicon hydrovoltaic device via cobalt oxide enabled electrode surface contact, <strong><i>Nano Energy</i></strong>. 2023, 106, 108081
     <a href="https://doi.org/10.1016/j.nanoen.2022.108081" target="_blank">https://doi.org/10.1016/j.nanoen.2022.108081</a>.<strong>(JCR:Q1)</strong>
     </li>
+    <li>Chunfang Xing, Wenbo Gu, Kun Gao, Beibei Shao, <strong><u>Conghui Jiang</u></strong>, Guilin Bai, Dacheng Xu, Xinyu Wang, Kun Li, Zheheng Song, Zhaojun Su, Jie Mao, Xinyu Zhang, Peiting Zheng, Wei Zhang, Xiaohong Zhang, Yusheng Wang*, Xinbo Yang*, Baoquan Sun*,Electron-Selective Strontium Oxide Contact for Crystalline Silicon Solar Cells with High Fill Factor	    <strong><i>Solar RRL</i></strong>. 2023 <a href=" https://doi.org/10.1002/solr.202201100" target="_blank"> https://doi.org/10.1002/solr.202201100</a>.<strong>(JCR:Q1)</strong>
+    </li>
     <li>Jiaqing Zang, Lei Cai, Yatao Zou*,Ya Li, Guilin Bai, Zhiwei Hong, Zhewei Chen,
 <strong><u>Conghui Jiang</u></strong>, Yuhang Song, Xuelian Zeng, Tao Song*, and Baoquan Sun*, Self‐Healing Perovskite Films Enabled by Fluorinated Cross‐Linked Network Targeting Flexible Light‐             Emitting Diode, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10, 2200566
     <a href="http://dx.doi.org/10.1002/adom.202200566"        
