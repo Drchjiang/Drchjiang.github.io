@@ -70,7 +70,7 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*
 <ul>
     <li> Bilibili: <strong><a href="https://space.bilibili.com/390423616/channel/collectiondetail?sid=737738" target="_blank">当时只道是-寻常-</a></strong> </li>
     <li> E-mail: <strong>chjiang2020@163.com</strong></li>
-    <li> ResearchGate: <strong><a href="https://www.researchgate.net/profile/Conghui-Jiang" target="_blank">Conghui Jiang华北非常</a></strong>
+    <li> ResearchGate: <strong><a href="https://www.researchgate.net/profile/Conghui-Jiang" target="_blank">Conghui Jiang</a></strong>
 	</li>	
 </ul>
 
