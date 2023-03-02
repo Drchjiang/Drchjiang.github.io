@@ -37,9 +37,9 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*
 <!-- 无序排列 -->
 <ol>
     <li>一种硅异质结太阳能电池</li>
-    <li>一种引入纳米氧化锌保护的封装材料及其制备方法与应用(<strong>已授权：CN 113234249 B</strong>)</li>
+    <li>一种引入纳米氧化锌保护的封装材料及其制备方法与应用(<strong>已授权：ZL 2021 1 0730926.6</strong>)</li>
     <li>一种基于封装材料上制作电极构筑的多功能发电装置</li>
-    <li>一种基于氰基吡啶类离子液体的钙钛矿太阳能电池用添加剂及其应用(<strong>已授权：CN 110845398 B</strong>)</li>
+    <li>一种基于氰基吡啶类离子液体的钙钛矿太阳能电池用添加剂及其应用(<strong>已授权：ZL 2019 1 1139316.8</strong>)</li>
     <li>一种解决电池组件电势诱导衰减的方法</li>
 </ol>
 
