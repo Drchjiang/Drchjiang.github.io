@@ -45,7 +45,7 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*
 
 <h2>Conference Report</h2>
 
-<strong><u> Conghui Jiang </u></strong>  <a href=https://www.bilibili.com/video/BV1e44y1m7Mp/?vd_source=b18baa21d59ab34f3917b8e707592add" target="_blank">Building Integrated PV with Inkjet Printing Luminescent Downshift QDs for SHJ SCs.</a> <strong><i> 第十八届中国太阳级硅及光伏发电研讨会 </i></strong>, 山西太原. 
+<strong><u> Conghui Jiang </u></strong>  <a href="https://www.bilibili.com/video/BV1e44y1m7Mp/?vd_source=b18baa21d59ab34f3917b8e707592add" target="_blank">Building Integrated PV with Inkjet Printing Luminescent Downshift QDs for SHJ SCs.</a> <strong><i> 第十八届中国太阳级硅及光伏发电研讨会 </i></strong>, 山西太原. 
 
 <h2>Simulations</h2>
 
