@@ -62,7 +62,7 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*
 
 <h2>CV</h2>
 
-<h4><a href="block" download>我的简历下载</a></h4>     
+<h4><a href="CV.pdf" download>我的简历下载</a></h4>     
 
 <h2>Contact Information</h2>
 
