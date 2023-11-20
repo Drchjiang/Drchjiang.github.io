@@ -16,7 +16,7 @@ Ferroelectric Layer‐Assisted Asymmetric Heterojunction Boosts Power Output in 
     </li>	
     <li>Jiangyu Chen#, Lei Cai#, <strong><u>Conghui Jiang</u></strong>, Zhewei Chen, Guilin Bai, Xiang Li, Ya Li, Yatao Zou, Tao Song*, Baoquan Sun*, 	
 Phase Distribution Manipulation through Molecular Interaction Enables Efficient Quasi-2D Perovskite Light-Emitting Diodes, <strong><i>The Journal of Physical Chemistry C</i></strong>. 2023, 127, 9388
-	    <a href="https://doi.org/10.1021/acs.jpcc.3c01690"            target="_blank">https://doi.org/10.1021/acs.jpcc.3c01690.<strong>(JCR:Q2)</strong>
+	    <a href="https://doi.org/10.1021/acs.jpcc.3c01690"            target="_blank">https://doi.org/10.1021/acs.jpcc.3c01690</a>.<strong>(JCR:Q2)</strong>
      </li>
      <li>Chunfang Xing, <strong><u>Conghui Jiang</u></strong>, Wenbo Gu, Xinliang Lou, Kun Gao, Yuhang Song, Beibei Shao, Kun Li, Xinyu Wang, Dacheng Xu, Xiaohong Zhang, Yusheng Wang*, Xinbo Yang*, Baoquan Sun*, SrFx‐based electron‐selective contact with high tolerance to thickness for crystalline silicon solar cells enabling efficiency over 21%, <strong><i>Progress in Photovoltaics: Research and Applications</i></strong>. 2023
 	    <a href="https://doi.org/10.1002/pip.3733"            target="_blank">https://doi.org/10.1002/pip.3733</a>.<strong>(JCR:Q1)</strong>
