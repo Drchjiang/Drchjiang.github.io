@@ -7,6 +7,12 @@
     <li><strong><u>Conghui Jiang</u></strong>, Guohua Zhang, Zhiwei Hong, Jiangyu Chen, Ya Li, Xianrong Yuan, Yinyue Lin, Cao Yu, Tao Wang, Tao Song*, Yusheng Wang*, Baoquan Sun*, Colored Silicon Heterojunction Solar Cells Exceeding 23.5% Efficiency Enabled by Luminescent Down-Shift Quantum Dots, <strong><i>Advanced Materials</i></strong>. 2023, 35, 2208042
 	    <a href="https://doi.org/10.1002/adma.202208042"            target="_blank">https://doi.org/10.1002/adma.202208042</a>.<strong>(JCR:Q1)</strong>
     </li>
+	<li>Jiangyu Chen#, Lei Cai#, <strong><u>Conghui Jiang</u></strong>, Zhewei Chen, Guilin Bai, Xiang Li, Ya Li, Yatao Zou, Tao Song*, Baoquan Sun*, 	
+Phase Distribution Manipulation through Molecular Interaction Enables Efficient Quasi-2D Perovskite Light-Emitting Diodes, <strong><i>The Journal of Physical Chemistry C</i></strong>. 2023， 127， 9388
+		<a href="https://doi.org/10.1021/acs.jpcc.3c01690"            target="_blank">https://doi.org/10.1021/acs.jpcc.3c01690.<strong>(JCR:Q2)</strong>
+	</li>
+	<li>Chunfang Xing, <strong><u>Conghui Jiang</u></strong>, Wenbo Gu, Xinliang Lou, Kun Gao, Yuhang Song, Beibei Shao, Kun Li, Xinyu Wang, Dacheng Xu, Xiaohong Zhang, Yusheng Wang*, Xinbo Yang*, Baoquan Sun*, SrFx‐based electron‐selective contact with high tolerance to thickness for crystalline silicon solar cells enabling efficiency over 21%, <strong><i>Progress in Photovoltaics: Research and Applications</i></strong>.
+	</li>
     <li>Bin Hao#, Yimeng Song#, <strong><u>Conghui Jiang</u></strong>, Jiufang Han, Yang Jiang, Zhen Deng, Wenxin Wang, Haiqiang Jia, Hong Chen, Chunhua Du*, Comparing single-, double-and triple-layer anti-reflection coatings for ultra-low reflectance in silicon heterojunction solar cells, <strong><i>Japanese Journal of Applied Physics</i></strong>. 2023, 62, 061002
 	    <a href="https://doi.org/10.35848/1347-4065/acd7b7"            target="_blank">https://iopscience.iop.org/article/10.35848/1347-4065/acd7b7/meta</a>.<strong>(JCR:Q4)</strong>
     </li>	 
