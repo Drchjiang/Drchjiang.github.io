@@ -12,11 +12,11 @@
     </li>	 
     <li>Chenyang Zhang#, Mingxu Wang#, <strong><u>Conghui Jiang</u></strong>, Peizhi Zhu, Baoquan Sun,
 Qiang Gao*, Chunxia Gao*, Ruiyuan Liu*, Highly adhesive and          self-healing γ-PGA/PEDOT: PSS conductive hydrogels enabled by multiple hydrogen bonding for wearable electronics, <strong><i>Nano Energy</i></strong>. 2022, 95, 106991
-    <a href="http://doi.org/10.1016/j.nanoen.2022.106991"            target="_blank">http://dx.doi.org/10.1016/j.nanoen.2022.106991</a>.<strong>(JCR:Q1)</strong>
+    <a href="http://doi.org/10.1016/j.nanoen.2022.106991"            target="_blank">http://doi.org/10.1016/j.nanoen.2022.106991</a>.<strong>(JCR:Q1)</strong>
     </li>
     <li>Xin Chen, <strong><u>Conghui Jiang</u></strong>, Yuhang Song, Beibei Shao, Yanfei Wu, Zheheng Song,
 Tao Song, Yusheng Wang*, Baoquan Sun*, Integrating        hydrovoltaic device with triboelectric nanogenerator to achieve simultaneous energy harvesting from water droplet and        vapor, <strong><i>Nano Energy</i></strong>. 2022, 100, 107495
-    <a href="http://doi.org/10.1016/j.nanoen.2022.107495" target="_blank">http://dx.doi.org/10.1016/j.nanoen.2022.107495</a>.<strong>(JCR:Q1)</strong>
+    <a href="http://doi.org/10.1016/j.nanoen.2022.107495" target="_blank">http://doi.org/10.1016/j.nanoen.2022.107495</a>.<strong>(JCR:Q1)</strong>
     </li>
     <li>Beibei Shao, Chunfang Xing, Yuhang Song, <strong><u>Conghui Jiang</u></strong>, Guilin Bai, Tao Song, Ruiyuan Liu*, Yusheng Wang*, Baoquan Sun*, Boosting electrical output of nanostructured silicon hydrovoltaic device via cobalt oxide enabled electrode surface contact, <strong><i>Nano Energy</i></strong>. 2023, 106, 108081
     <a href="https://doi.org/10.1016/j.nanoen.2022.108081" target="_blank">https://doi.org/10.1016/j.nanoen.2022.108081</a>.<strong>(JCR:Q1)</strong>
@@ -26,12 +26,12 @@ Tao Song, Yusheng Wang*, Baoquan Sun*, Integrating        hydrovoltaic device wi
     <li>Jiaqing Zang, Lei Cai, Yatao Zou*,Ya Li, Guilin Bai, Zhiwei Hong, Zhewei Chen,
 <strong><u>Conghui Jiang</u></strong>, Yuhang Song, Xuelian Zeng, Tao Song*, and Baoquan Sun*, Self‐Healing Perovskite Films Enabled by Fluorinated Cross‐Linked Network Targeting Flexible Light‐             Emitting Diode, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10, 2200566
     <a href="http://doi.org/10.1002/adom.202200566"        
-       target="_blank">http://dx.doi.org/10.1002/adom.202200566</a>.<strong>(JCR:Q1)</strong>   
+       target="_blank">http://doi.org/10.1002/adom.202200566</a>.<strong>(JCR:Q1)</strong>   
     </li>
     <li>Zhiwei Hong, Yatao Zou*, Yajuan Li, Lei Cai, Zhewei Chen, Jiaqing Zang, Guilin Bai,
 Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*, and Baoquan Sun*, In Situ Ligand‐Exchange in Solid Quantum Dots Film Enables Stacked White Light‐Emitting Diodes, <strong><i>Adv.Optical Mater</i></strong>. 2022, 10,  2200918
     <a href="http://doi.org/10.1002/adom.202200918"    
-       target="_blank">http://dx.doi.org/10.1002/adom.202200918</a>.<strong>(JCR:Q1)</strong>   
+       target="_blank">http://doi.org/10.1002/adom.202200918</a>.<strong>(JCR:Q1)</strong>   
     </li>
 </ol>
 
