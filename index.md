@@ -111,6 +111,5 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.appendChild(counterElement);
 });
 </script>
-<!-- 在页面底部添加 -->
-<div id="global-counter">正在加载访问次数...</div>
+
 
