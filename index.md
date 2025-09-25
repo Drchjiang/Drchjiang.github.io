@@ -94,20 +94,26 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*
 <!-- 底部空行 -->
 <div style="margin-top: 100px;"></div>
 
+
+
 <script>
-// 页面访问计数器
+// 使用 CountAPI 统计全球访问量
 document.addEventListener('DOMContentLoaded', function() {
-    let pageCount = localStorage.getItem('pageCount') || 0;
-    pageCount = parseInt(pageCount) + 1;
-    localStorage.setItem('pageCount', pageCount);
+    const namespace = 'conghui-jiang-academic';
+    const key = 'page-views';
     
-    const counterElement = document.createElement('div');
-    counterElement.innerHTML = `页面访问次数: <strong>${pageCount}</strong>`;
-    counterElement.style.cssText = 'text-align: center; margin: 20px 0; color: #666;';
-    
-    // 插入到页面底部
-    document.body.appendChild(counterElement);
+    // 获取当前计数
+    fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('global-counter').innerHTML = 
+                `全球累计访问次数: <strong>${data.value}</strong>`;
+        })
+        .catch(error => {
+            console.error('计数服务错误:', error);
+            document.getElementById('global-counter').innerHTML = 
+                '计数服务暂时不可用';
+        });
 });
 </script>
-
 
