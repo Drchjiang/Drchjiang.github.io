@@ -94,17 +94,20 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*
 <!-- 底部空行 -->
 <div style="margin-top: 100px;"></div>
 
-<!-- script language=JavaScript -->
-<script language=JavaScript>
-<script type="text/javascript">
-
-	if(null !=localStorage.pagecount){
-		localStorage.pagecount=Number(localStorage.pagecount)+1;
-	}else{
-		localStorage.pagecount=1;
-		}
-	document.write("已经访问了"+localStorage.pagecount+"次<br>");
-
+<script>
+// 页面访问计数器
+document.addEventListener('DOMContentLoaded', function() {
+    let pageCount = localStorage.getItem('pageCount') || 0;
+    pageCount = parseInt(pageCount) + 1;
+    localStorage.setItem('pageCount', pageCount);
+    
+    const counterElement = document.createElement('div');
+    counterElement.innerHTML = `页面访问次数: <strong>${pageCount}</strong>`;
+    counterElement.style.cssText = 'text-align: center; margin: 20px 0; color: #666;';
+    
+    // 插入到页面底部
+    document.body.appendChild(counterElement);
+});
 </script>
 
 
