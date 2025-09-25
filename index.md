@@ -95,6 +95,33 @@ Ya Li, Jiangyu Chen, Yanfei Wu, <strong><u>Conghui Jiang</u></strong>, Tao Song*
 <div style="margin-top: 100px;"></div>
 
 
+<!-- 更精美的样式版本 -->
+<div style="
+    text-align: center; 
+    margin: 50px 0 30px 0; 
+    padding: 25px; 
+    font-style: italic; 
+    color: #555; 
+    font-size: 1.1em;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+">
+    <span style="
+        display: inline-block;
+        padding: 10px 20px;
+        border-left: 3px solid #6c757d;
+        background: white;
+        border-radius: 5px;
+    ">
+        Good morning, and in case I don't see you, good afternoon, good evening, and good night!
+    </span>
+    <div style="margin-top: 10px; font-size: 0.9em; color: #888;">
+        — The Truman Show
+    </div>
+</div>
+
 
 <script>
 // 页面访问计数器
