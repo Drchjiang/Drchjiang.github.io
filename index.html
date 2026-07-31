@@ -224,8 +224,8 @@
             color: #a0c8ff;
         }
 
-        /* 新增：千兆网口高亮标签 */
-        .badge-gigabit {
+        /* 金色高亮徽章（用于千兆网口和高级USB） */
+        .badge-gold {
             background: rgba(255, 215, 0, 0.15);
             border-color: rgba(255, 215, 0, 0.3);
             color: #ffd700;
@@ -577,7 +577,7 @@
             bandwidth: 91,
             sys: 43238,
             android: '9',
-            eth: '千兆',        // 将被高亮
+            eth: '千兆',
             wifi: '双频WiFi5',
             usb: '2.0+3.0',
             isTv: false
@@ -667,7 +667,13 @@
             // 网口处理：若为千兆则加高亮标签
             let ethHtml = d.eth;
             if (d.eth === '千兆') {
-                ethHtml = `<span class="badge badge-gigabit">千兆</span>`;
+                ethHtml = `<span class="badge badge-gold">千兆</span>`;
+            }
+
+            // USB处理：若不是纯粹的"2.0"，则加高亮标签（包括"2.0+3.0"和"2.0+Type-C"）
+            let usbHtml = d.usb;
+            if (d.usb !== '2.0') {
+                usbHtml = `<span class="badge badge-gold">${d.usb}</span>`;
             }
 
             const bandwidthVal = d.bandwidth !== null ? d.bandwidth : '—';
@@ -691,7 +697,7 @@
                 <td><span class="badge">${d.android}</span></td>
                 <td>${ethHtml}</td>
                 <td>${d.wifi}</td>
-                <td>${d.usb}</td>
+                <td>${usbHtml}</td>
             `;
             tbody.appendChild(tr);
         });
