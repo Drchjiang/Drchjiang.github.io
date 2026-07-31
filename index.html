@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>电视盒子 · SoC 性能竞技场</title>
-    <!-- 引入 ECharts -->
+    <title>电视盒子pk</title>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js">
     </script>
     <style>
@@ -37,15 +36,20 @@
             box-shadow: 0 20px 60px rgba(0, 20, 80, 0.6);
         }
 
-        /* ===== 头部 ===== */
         .header {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 28px;
+            border-bottom: 1px solid rgba(0, 200, 255, 0.15);
+            padding-bottom: 16px;
+        }
+
+        .header-top {
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
             flex-wrap: wrap;
-            margin-bottom: 28px;
-            border-bottom: 1px solid rgba(0, 200, 255, 0.15);
-            padding-bottom: 16px;
+            width: 100%;
         }
 
         .header h1 {
@@ -59,7 +63,80 @@
             text-shadow: 0 0 30px rgba(80, 140, 255, 0.25);
         }
 
-        /* ===== 表格容器 ===== */
+        .header-sub {
+            margin-top: 8px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #a0bcdb;
+            letter-spacing: 1.2px;
+            border-left: 3px solid #6b8cff;
+            padding-left: 16px;
+            background: linear-gradient(90deg, rgba(107, 140, 255, 0.08), transparent);
+            padding: 10px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(107, 140, 255, 0.15);
+            border-left-width: 4px;
+        }
+
+        .header-sub a {
+            color: #7eb8ff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.25s, text-shadow 0.25s;
+            border-bottom: 1px dashed rgba(126, 184, 255, 0.3);
+            padding-bottom: 1px;
+        }
+
+        .header-sub a:hover {
+            color: #a78bfa;
+            text-shadow: 0 0 20px rgba(167, 139, 250, 0.3);
+            border-bottom-color: #a78bfa;
+        }
+
+        .header-sub .highlight {
+            color: #f5b85b;
+            font-weight: 500;
+        }
+
+        /* 新增的联系方式 */
+        .contact-info {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #8aa8d0;
+            letter-spacing: 0.5px;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .contact-info a {
+            color: #7eb8ff;
+            text-decoration: none;
+            transition: color 0.25s, text-shadow 0.25s;
+            border-bottom: 1px solid rgba(126, 184, 255, 0.2);
+            padding-bottom: 2px;
+        }
+
+        .contact-info a:hover {
+            color: #a78bfa;
+            text-shadow: 0 0 20px rgba(167, 139, 250, 0.3);
+            border-bottom-color: #a78bfa;
+        }
+
+        .contact-info .icon {
+            font-size: 18px;
+        }
+
+        .glow-line {
+            height: 2px;
+            width: 120px;
+            background: linear-gradient(90deg, transparent, #4f8cff, #a78bfa, transparent);
+            margin-top: 4px;
+        }
+
         .table-wrap {
             overflow-x: auto;
             border-radius: 20px;
@@ -146,7 +223,6 @@
             font-style: italic;
         }
 
-        /* ===== 图表容器 ===== */
         .chart-box {
             background: rgba(8, 16, 30, 0.5);
             border-radius: 24px;
@@ -169,7 +245,81 @@
             height: 280px;
         }
 
-        /* ===== 底部 ===== */
+        .bottom-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 32px;
+        }
+
+        .bottom-card {
+            background: rgba(8, 16, 30, 0.5);
+            border-radius: 24px;
+            border: 1px solid rgba(0, 180, 255, 0.08);
+            padding: 20px 24px 24px;
+            transition: border-color 0.3s;
+        }
+
+        .bottom-card:hover {
+            border-color: rgba(0, 200, 255, 0.2);
+        }
+
+        .bottom-card .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #d6e8ff;
+            letter-spacing: 1px;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(0, 180, 255, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .bottom-card .card-title .icon {
+            font-size: 20px;
+        }
+
+        .bottom-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .bottom-card ul li {
+            padding: 6px 0;
+            font-size: 14px;
+            color: #b0cce0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .bottom-card ul li:last-child {
+            border-bottom: none;
+        }
+
+        .bottom-card ul li .dot {
+            color: #4f8cff;
+            font-size: 10px;
+        }
+
+        .bottom-card ul li a {
+            color: #7eb8ff;
+            text-decoration: none;
+            transition: color 0.25s, text-shadow 0.25s;
+            font-weight: 400;
+        }
+
+        .bottom-card ul li a:hover {
+            color: #a78bfa;
+            text-shadow: 0 0 20px rgba(167, 139, 250, 0.25);
+            text-decoration: underline;
+        }
+
         .footer {
             margin-top: 30px;
             font-size: 13px;
@@ -180,28 +330,24 @@
             letter-spacing: 0.5px;
         }
 
-        .footer a {
-            color: #7eb8ff;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .footer a:hover {
-            color: #a78bfa;
-            text-decoration: underline;
-        }
-
         .footer span {
             color: #5a7a9a;
         }
 
-        /* ===== 响应式 ===== */
         @media (max-width: 1100px) {
             .container {
                 padding: 20px 16px;
             }
             .header h1 {
                 font-size: 24px;
+            }
+            .header-sub {
+                font-size: 15px;
+                padding: 8px 14px;
+            }
+            .contact-info {
+                font-size: 14px;
+                padding-left: 16px;
             }
             th,
             td {
@@ -211,6 +357,36 @@
             table {
                 min-width: 1000px;
             }
+            .bottom-grid {
+                gap: 16px;
+            }
+            .bottom-card {
+                padding: 14px 16px;
+            }
+            .bottom-card ul li {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .bottom-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+            .bottom-card {
+                padding: 12px;
+            }
+            .bottom-card .card-title {
+                font-size: 14px;
+            }
+            .bottom-card ul li {
+                font-size: 11px;
+                padding: 4px 0;
+            }
+            .contact-info {
+                font-size: 12px;
+                flex-wrap: wrap;
+            }
         }
     </style>
 </head>
@@ -219,10 +395,23 @@
     <div class="container">
         <!-- 头部 -->
         <div class="header">
-            <div>
+            <div class="header-top">
                 <h1>⚡ 电视盒子芯片性能PK</h1>
-                <div style="height:2px;width:120px;background:linear-gradient(90deg,transparent,#4f8cff,#a78bfa,transparent);margin-top:4px;"></div>
             </div>
+            <div class="header-sub">
+                📊 该数据来源于B站数码区UP主
+                <a href="https://space.bilibili.com/390423616/lists/7672860?type=season" target="_blank">
+                    当时只道是-寻常-
+                </a>
+                <span class="highlight">✦</span>
+            </div>
+            <!-- 新增的联系方式 -->
+            <div class="contact-info">
+                <span class="icon">✉️</span>
+                联系邮箱：
+                <a href="mailto:chjiang2020@163.com">chjiang2020@163.com</a>
+            </div>
+            <div class="glow-line"></div>
         </div>
 
         <!-- 表格 -->
@@ -254,19 +443,54 @@
             </table>
         </div>
 
-        <!-- CPU & GPU & 总分 对比图 -->
+        <!-- 图表 -->
         <div class="chart-box">
             <div class="chart-title">📊 性能三围：总分 · CPU · GPU</div>
             <div id="chartCpuGpu" class="chart-container"></div>
         </div>
 
+        <!-- 双栏 -->
+        <div class="bottom-grid">
+            <div class="bottom-card">
+                <div class="card-title"><span class="icon">📺</span> 电视盒子推荐</div>
+                <ul>
+                    <li><span class="dot">▸</span> <a href="https://b23.tv/SfNFnbZ" target="_blank">电视盒子推荐2026.06</a></li>
+                    <li><span class="dot">▸</span> <a href="https://b23.tv/XZt9qym" target="_blank">电视盒子推荐2026.02</a></li>
+                    <li><span class="dot">▸</span> <a href="https://b23.tv/vyIcrMy" target="_blank">电视盒子推荐2025.12</a></li>
+                </ul>
+            </div>
+            <div class="bottom-card">
+                <div class="card-title"><span class="icon">🛒</span> 自购评测</div>
+                <ul>
+                    <li>
+                        <span class="dot">▸</span>
+                        <span style="color:#8aa8d0;font-size:12px;">小米</span>
+                        <a href="https://b23.tv/fHUECSt" target="_blank">小米盒子5</a>
+                        <a href="https://b23.tv/cxhyPkD" target="_blank">小米盒子4s max</a>
+                    </li>
+                    <li>
+                        <span class="dot">▸</span>
+                        <span style="color:#8aa8d0;font-size:12px;">腾讯极光</span>
+                        <a href="https://b23.tv/4DGN5vE" target="_blank">极光盒子7air</a>
+                        <a href="https://b23.tv/w7PyRMi" target="_blank">极光盒子3pro</a>
+                        <a href="https://b23.tv/2xjSmiN" target="_blank">极光盒子6se</a>
+                    </li>
+                    <li>
+                        <span class="dot">▸</span>
+                        <span style="color:#8aa8d0;font-size:12px;">当贝</span>
+                        <a href="https://b23.tv/7Hf2cyW" target="_blank">当贝盒子5（新）</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
         <div class="footer">
-            <span>该数据来源于B站数码区UP主 <a href="https://space.bilibili.com/390423616/lists/7672860?type=season" target="_blank">当时只道是-寻常-</a>。</span>
+            <span>数据仅供个人参考 · 雷鸟鹏6 为智能电视</span>
         </div>
     </div>
 
     <script>
-        // ==================== 数据（GPU名称已全部补全） ====================
+        // ==================== 数据 ====================
         const devices = [{
             name: '当贝H5（新）',
             config: '2+64',
@@ -395,14 +619,11 @@
             isTv: true
         }];
 
-        // ==================== 渲染表格 ====================
         const tbody = document.getElementById('socTableBody');
         devices.forEach(d => {
             const tr = document.createElement('tr');
             let nameHtml = `<span class="model-name">${d.name}</span>`;
-            if (d.isTv) {
-                nameHtml += ` <span class="badge badge-tv">电视</span>`;
-            }
+            if (d.isTv) nameHtml += ` <span class="badge badge-tv">电视</span>`;
             const bandwidthVal = d.bandwidth !== null ? d.bandwidth : '—';
             const gpuNameVal = d.gpuName || '—';
             const memVal = d.mem !== null ? d.mem : '—';
@@ -428,16 +649,15 @@
             tbody.appendChild(tr);
         });
 
-        // ==================== 绘制 CPU & GPU & 总分 柱状图 ====================
+        // 图表
         const chartDom = document.getElementById('chartCpuGpu');
         const myChart = echarts.init(chartDom);
-
         const models = devices.map(d => d.name);
         const cpuData = devices.map(d => d.cpu);
         const gpuData = devices.map(d => d.gpuScore);
         const totalData = devices.map(d => d.total);
 
-        const option = {
+        myChart.setOption({
             tooltip: {
                 trigger: 'axis',
                 axisPointer: { type: 'shadow' },
@@ -465,12 +685,7 @@
             xAxis: {
                 type: 'category',
                 data: models,
-                axisLabel: {
-                    color: '#8aa8d0',
-                    fontSize: 11,
-                    rotate: 20,
-                    interval: 0
-                },
+                axisLabel: { color: '#8aa8d0', fontSize: 11, rotate: 20, interval: 0 },
                 axisLine: { lineStyle: { color: '#2a3a5a' } },
             },
             yAxis: {
@@ -520,15 +735,9 @@
                 barWidth: '18%',
                 barGap: '60%'
             }]
-        };
-
-        myChart.setOption(option);
-
-        // 自适应
-        window.addEventListener('resize', () => {
-            myChart.resize();
         });
-    </script>
 
+        window.addEventListener('resize', () => myChart.resize());
+    </script>
 </body>
 </html>
