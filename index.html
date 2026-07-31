@@ -167,7 +167,7 @@
             background: rgba(0, 160, 255, 0.08);
             color: #7eb8ff;
             font-weight: 500;
-            padding: 14px 10px;
+            padding: 7px 5px;
             text-align: center;
             border-bottom: 2px solid rgba(0, 180, 255, 0.15);
             letter-spacing: 0.5px;
@@ -177,7 +177,7 @@
         }
 
         td {
-            padding: 12px 8px;
+            padding: 6px 4px;
             text-align: center;
             border-bottom: 1px solid rgba(255, 255, 255, 0.04);
             color: #c8d6e8;
@@ -403,7 +403,7 @@
             th,
             td {
                 font-size: 11px;
-                padding: 8px 4px;
+                padding: 5px 3px;
             }
             table {
                 min-width: 1000px;
@@ -450,6 +450,11 @@
             .section-label {
                 font-size: 17px;
             }
+            th,
+            td {
+                padding: 4px 2px;
+                font-size: 10px;
+            }
             .symbol {
                 font-size: 16px;
             }
@@ -463,8 +468,8 @@
 
     <div class="container">
 
-        <!-- 居中大标题 -->
-        <div class="page-title">⚡ 电视盒子芯片性能PK</div>
+        <!-- ===== 顶部大标题已修改 ===== -->
+        <div class="page-title">⚡ 电视盒子PK</div>
 
         <!-- 头部信息 -->
         <div class="header">
@@ -482,8 +487,8 @@
             </div>
         </div>
 
-        <!-- 板块标识：电视盒子 -->
-        <div class="section-label">📺 电视盒子</div>
+        <!-- ===== 第一个标题：电视盒子硬件配置 ===== -->
+        <div class="section-label">📺 电视盒子硬件配置</div>
 
         <!-- ===== 主性能表格 ===== -->
         <div class="table-wrap">
@@ -520,8 +525,10 @@
             <div id="chartCpuGpu" class="chart-container"></div>
         </div>
 
-        <!-- ===== 影音性能汇总（标题“电视盒子硬件配置”） ===== -->
-        <div class="section-label">🛠️ 电视盒子硬件配置</div>
+        <!-- ===== 第二个标题：电视盒子影音支持 ===== -->
+        <div class="section-label">🎬 电视盒子影音支持</div>
+
+        <!-- ===== 影音表格 ===== -->
         <div class="table-wrap">
             <table>
                 <thead>
@@ -839,7 +846,7 @@
 
         window.addEventListener('resize', () => myChart.resize());
 
-        // ==================== 影音性能数据（已核对并修正） ====================
+        // ==================== 影音性能数据 ====================
         const avData = [{
             name: '当贝H5（新）',
             '4K60Hz': true,
@@ -903,7 +910,7 @@
         }, {
             name: '雷鸟鹏6',
             '4K60Hz': true,
-            '1080P120Hz': true,   // 修正为支持
+            '1080P120Hz': true,
             '4K120Hz': false,
             '杜比全景声': true,
             'DTS:X': true,
@@ -912,7 +919,6 @@
             '杜比视界': false
         }];
 
-        // 辅助函数：返回带符号和说明的 HTML
         function getCellHtml(deviceName, col, supported) {
             let symbol = supported ? '✔' : '×';
             let symbolClass = supported ? 'symbol symbol-yes' : 'symbol symbol-no';
@@ -935,7 +941,6 @@
             return html;
         }
 
-        // 渲染影音表格
         const avTbody = document.getElementById('avTableBody');
         const headers = ['4K60Hz', '1080P120Hz', '4K120Hz', '杜比全景声', 'DTS:X', 'HDR10', 'HDR10+', '杜比视界'];
 
