@@ -592,7 +592,7 @@
     </div>
 
     <script>
-        // ==================== 主性能数据（内存带宽已更新） ====================
+        // ==================== 主性能数据（GPU 与 内存+硬盘 交换） ====================
         const devices = [{
             name: '当贝H5（新）',
             config: '2+64',
@@ -601,11 +601,11 @@
             process: '28nm',
             cpu: 26430,
             cores: '4核A53',
-            gpuScore: 17604,
+            gpuScore: 12689,   // 原 mem
             gpuName: 'Mali-G31 MP2',
-            mem: 12689,
-            bandwidth: 5.4,   // 更新
-            sys: 35224,
+            mem: 35224,        // 原 gpuScore
+            bandwidth: 5.4,
+            sys: 17604,
             android: '12',
             eth: '无',
             wifi: '双频WiFi5',
@@ -619,11 +619,11 @@
             process: '12nm',
             cpu: 29986,
             cores: '4核A55',
-            gpuScore: 23732,
+            gpuScore: 18080,   // 原 mem
             gpuName: 'Mali-G31 MP2',
-            mem: 18080,
-            bandwidth: 8.5,   // 更新
-            sys: 41996,
+            mem: 41996,        // 原 gpuScore
+            bandwidth: 8.5,
+            sys: 23732,
             android: '9',
             eth: '无',
             wifi: '双频WiFi5',
@@ -637,11 +637,11 @@
             process: '12nm',
             cpu: 31096,
             cores: '4核A55',
-            gpuScore: 26396,
+            gpuScore: 18333,   // 原 mem
             gpuName: 'Mali-G31 MP2',
-            mem: 18333,
-            bandwidth: 6.0,   // 更新
-            sys: 43238,
+            mem: 43238,        // 原 gpuScore
+            bandwidth: 6.0,
+            sys: 26396,
             android: '9',
             eth: '千兆',
             wifi: '双频WiFi5',
@@ -655,11 +655,11 @@
             process: '28nm',
             cpu: 29077,
             cores: '4核A53',
-            gpuScore: 10741,
+            gpuScore: 0,       // 原 mem
             gpuName: 'Mali-G31 MP2',
-            mem: 0,
-            bandwidth: 6.1,   // 更新
-            sys: 36597,
+            mem: 36597,        // 原 gpuScore
+            bandwidth: 6.1,
+            sys: 10741,
             android: '10',
             eth: '百兆',
             wifi: '2.4G WiFi',
@@ -673,11 +673,11 @@
             process: '6nm',
             cpu: 41955,
             cores: '4核A55',
-            gpuScore: 50690,
+            gpuScore: 42274,   // 原 mem
             gpuName: 'Mali-G310 V2',
-            mem: 42274,
-            bandwidth: 8.8,   // 更新
-            sys: 51245,
+            mem: 51245,        // 原 gpuScore
+            bandwidth: 8.8,
+            sys: 50690,
             android: '14',
             eth: '百兆',
             wifi: '双频WiFi6',
@@ -691,11 +691,11 @@
             process: '6nm',
             cpu: 40963,
             cores: '4核A55',
-            gpuScore: 30706,
+            gpuScore: 42968,   // 原 mem
             gpuName: 'Mali-G310 V2',
-            mem: 42968,
-            bandwidth: 8.6,   // 更新（原为14）
-            sys: 49651,
+            mem: 49651,        // 原 gpuScore
+            bandwidth: 8.6,
+            sys: 30706,
             android: '14',
             eth: '无',
             wifi: '双频WiFi6',
@@ -709,11 +709,11 @@
             process: '12nm',
             cpu: 27591,
             cores: '5核A55',
-            gpuScore: 24040,
+            gpuScore: 36756,   // 原 mem
             gpuName: 'Mali-G57',
-            mem: 36756,
-            bandwidth: 9.5,   // 更新
-            sys: 45522,
+            mem: 45522,        // 原 gpuScore
+            bandwidth: 9.5,
+            sys: 24040,
             android: '11',
             eth: '百兆',
             wifi: '双频WiFi5',
