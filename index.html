@@ -36,7 +36,6 @@
             box-shadow: 0 20px 60px rgba(0, 20, 80, 0.6);
         }
 
-        /* ===== 页面居中主标题 ===== */
         .page-title {
             text-align: center;
             font-size: 42px;
@@ -52,7 +51,6 @@
             border-bottom: 1px solid rgba(0, 180, 255, 0.08);
         }
 
-        /* ===== 头部 ===== */
         .header {
             display: flex;
             flex-direction: column;
@@ -127,7 +125,6 @@
             font-size: 18px;
         }
 
-        /* ===== 邮箱下方的“电视盒子”板块标识 ===== */
         .section-label {
             font-size: 24px;
             font-weight: 600;
@@ -155,7 +152,6 @@
             margin-top: 4px;
         }
 
-        /* ===== 表格 ===== */
         .table-wrap {
             overflow-x: auto;
             border-radius: 20px;
@@ -242,7 +238,6 @@
             font-style: italic;
         }
 
-        /* ===== 图表 ===== */
         .chart-box {
             background: rgba(8, 16, 30, 0.5);
             border-radius: 24px;
@@ -265,7 +260,6 @@
             height: 280px;
         }
 
-        /* ===== 双栏 ===== */
         .bottom-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -341,7 +335,6 @@
             text-decoration: underline;
         }
 
-        /* ===== 底部 ===== */
         .footer {
             margin-top: 30px;
             font-size: 13px;
@@ -356,7 +349,6 @@
             color: #5a7a9a;
         }
 
-        /* ===== 响应式 ===== */
         @media (max-width: 1100px) {
             .container {
                 padding: 20px 16px;
@@ -426,10 +418,8 @@
 
     <div class="container">
 
-        <!-- ===== 页面顶部：居中大标题 ===== -->
         <div class="page-title">⚡ 电视盒子芯片性能PK</div>
 
-        <!-- ===== 头部：来源 + 邮箱 ===== -->
         <div class="header">
             <div class="header-sub">
                 📊 该数据来源于B站数码区UP主
@@ -445,7 +435,6 @@
             </div>
         </div>
 
-        <!-- ===== 邮箱下方：“电视盒子”板块标识 ===== -->
         <div class="section-label">📺 电视盒子</div>
 
         <!-- ===== 表格 ===== -->
@@ -460,10 +449,12 @@
                         <th>制程</th>
                         <th>CPU</th>
                         <th>核心</th>
-                        <th>GPU<br><span style="font-weight:300;font-size:10px;">(跑分)</span></th>
+                        <!-- 修改1: 去掉“(跑分)” -->
+                        <th>GPU</th>
                         <th>GPU名称</th>
                         <th>MEM</th>
-                        <th>内存带宽<br><span style="font-weight:300;font-size:10px;">(G/s)</span></th>
+                        <!-- 修改2: 将“G/s”改为“GB/s” -->
+                        <th>内存带宽<br><span style="font-weight:300;font-size:10px;">(GB/s)</span></th>
                         <th>系统跑分</th>
                         <th>安卓</th>
                         <th>网口</th>
@@ -477,13 +468,13 @@
             </table>
         </div>
 
-        <!-- ===== 图表 ===== -->
+        <!-- 图表 -->
         <div class="chart-box">
             <div class="chart-title">📊 性能三围：总分 · CPU · GPU</div>
             <div id="chartCpuGpu" class="chart-container"></div>
         </div>
 
-        <!-- ===== 双栏 ===== -->
+        <!-- 双栏 -->
         <div class="bottom-grid">
             <div class="bottom-card">
                 <div class="card-title"><span class="icon">📺</span> 电视盒子推荐</div>
@@ -518,7 +509,6 @@
             </div>
         </div>
 
-        <!-- ===== 底部 ===== -->
         <div class="footer">
             <span>数据仅供参考，请勿创造需求，理性购买</span>
         </div>
