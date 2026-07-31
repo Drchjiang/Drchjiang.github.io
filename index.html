@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>电视盒子 SoC 性能对比</title>
+    <!-- 引入 ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <style>
+        /* 学术风格全局重置 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #ffffff;
+            color: #222222;
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-weight: 600;
+            color: #1a1a1a;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 6px;
+            margin-top: 1.8rem;
+        }
+        h1 {
+            font-size: 2.2rem;
+            border-bottom: 2px solid #eaecef;
+            padding-bottom: 12px;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+            background: #fafbfc;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        th {
+            background-color: #f6f8fa;
+            text-align: center;
+            padding: 12px 10px;
+            border-bottom: 2px solid #d0d7de;
+            font-weight: 600;
+            color: #24292e;
+        }
+        td {
+            padding: 10px 8px;
+            text-align: center;
+            border-bottom: 1px solid #e1e4e8;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        tr:hover {
+            background-color: #f1f4f8;
+        }
+        .missing {
+            color: #888;
+            font-style: italic;
+        }
+        .badge {
+            background: #f1f8ff;
+            color: #0366d6;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid #c8e1ff;
+        }
+        .model-name {
+            font-weight: 600;
+            color: #000;
+        }
+        /* 图表容器 – 浅色风格 */
+        .chart-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin: 2rem 0;
+        }
+        .chart-box {
+            background: #ffffff;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            padding: 12px 12px 6px;
+        }
+        .chart-box .chart-title {
+            font-weight: 500;
+            color: #24292e;
+            font-size: 1rem;
+            margin-bottom: 8px;
+            padding-left: 4px;
+        }
+        .chart-container {
+            width: 100%;
+            height: 260px;
+        }
+        /* 页脚 */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eaecef;
+            font-size: 0.9rem;
+            color: #586069;
+            text-align: center;
+        }
+        /* 响应式 */
+        @media (max-width: 750px) {
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+            table {
+                font-size: 0.8rem;
+            }
+            th, td {
+                padding: 6px 4px;
+            }
+        }
+        /* 引用风格 (像学术页的引用块) */
+        .quote-box {
+            margin: 2rem 0 1rem;
+            padding: 1.2rem 2rem;
+            background: #f6f8fa;
+            border-left: 4px solid #d0d7de;
+            font-style: italic;
+            color: #444;
+            border-radius: 4px;
+        }
+        .quote-box span {
+            background: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+        }
+        .quote-box .author {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 标题区 -->
+    <h1>⚡ 电视盒子 SoC 性能竞技场</h1>
+    <p style="color: #586069; margin-top: -10px;">基于安兔兔跑分 · 数据持续更新</p>
+
+    <!-- 数据表格 -->
+    <h2>📊 详细规格与跑分</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>型号</th>
+                <th>安卓版本</th>
+                <th>核心</th>
+                <th>制程</th>
+                <th>安兔兔 CPU</th>
+                <th>安兔兔 GPU</th>
+                <th>安兔兔 MEM</th>
+                <th>安兔兔 系统</th>
+            </tr>
+        </thead>
+        <tbody id="socTableBody">
+            <!-- 由 JS 动态渲染 -->
+        </tbody>
+    </table>
+
+    <!-- 图表 -->
+    <h2>📈 性能可视化</h2>
+    <div class="chart-grid">
+        <div class="chart-box">
+            <div class="chart-title">CPU & GPU</div>
+            <div id="chartCpuGpu" class="chart-container"></div>
+        </div>
+        <div class="chart-box">
+            <div class="chart-title">MEM & 系统</div>
+            <div id="chartMemSys" class="chart-container"></div>
+        </div>
+    </div>
+
+    <!-- 引用块（模仿学术页风格） -->
+    <div class="quote-box">
+        <span>“数据是新的石油，而分析是内燃机。” – 佚名</span>
+        <div class="author">—— 仅供技术参考</div>
+    </div>
+
+    <div class="footer">
+        <span>数据来源：用户提供 · 雷鸟鹏6 部分数据暂缺</span><br />
+        <span style="font-size:0.8rem;">页面访问次数: <strong id="visitCount">0</strong></span>
+    </div>
+
+    <script>
+        // ---------- 数据 ----------
+        const socData = [
+            { model: '小米4s max', android: '9', cores: '4核A55', process: '12nm', cpu: 29986, gpu: 18080, mem: 41996, sys: 23732 },
+            { model: '极光3pro',   android: '9', cores: '4核A55', process: '12nm', cpu: 31096, gpu: 18333, mem: 43238, sys: 26396 },
+            { model: '极光6se',    android: '10', cores: '4核A53', process: '28nm', cpu: 29077, gpu: 0,     mem: 36597, sys: 10741 },
+            { model: '极光7air',   android: '14', cores: '4核A55', process: '6nm',  cpu: 41955, gpu: 42274, mem: 51245, sys: 50690 },
+            { model: '小米5',      android: '14', cores: '4核A55', process: '6nm',  cpu: 40963, gpu: 42968, mem: 49651, sys: 30706 },
+            { model: '雷鸟鹏6',    android: '11', cores: '5核A55', process: '12nm', cpu: null,  gpu: null,  mem: null,  sys: null }
+        ];
+
+        // 渲染表格
+        const tbody = document.getElementById('socTableBody');
+        socData.forEach(item => {
+            const row = document.createElement('tr');
+            const cpuVal = (item.cpu !== null) ? item.cpu.toLocaleString() : '<span class="missing">暂无</span>';
+            const gpuVal = (item.gpu !== null) ? item.gpu.toLocaleString() : '<span class="missing">暂无</span>';
+            const memVal = (item.mem !== null) ? item.mem.toLocaleString() : '<span class="missing">暂无</span>';
+            const sysVal = (item.sys !== null) ? item.sys.toLocaleString() : '<span class="missing">暂无</span>';
+            row.innerHTML = `
+                <td class="model-name">${item.model}</td>
+                <td><span class="badge">${item.android}</span></td>
+                <td>${item.cores}</td>
+                <td><span class="badge" style="background:#e6f0fa;color:#1a5a8c;">${item.process}</span></td>
+                <td>${cpuVal}</td>
+                <td>${gpuVal}</td>
+                <td>${memVal}</td>
+                <td>${sysVal}</td>
+            `;
+            tbody.appendChild(row);
+        });
+
+        // ---------- 图表：CPU & GPU ----------
+        const models = socData.map(d => d.model);
+        const cpuData = socData.map(d => d.cpu !== null ? d.cpu : 0);
+        const gpuData = socData.map(d => d.gpu !== null ? d.gpu : 0);
+        const memData = socData.map(d => d.mem !== null ? d.mem : 0);
+        const sysData = socData.map(d => d.sys !== null ? d.sys : 0);
+
+        // 通用 tooltip 处理缺失值
+        function tooltipFormatter(params) {
+            let res = `<strong>${params[0].axisValue}</strong><br/>`;
+            params.forEach(p => {
+                const item = socData.find(d => d.model === p.axisValue);
+                let val = p.value;
+                if (item) {
+                    const key = p.seriesName === 'CPU' ? 'cpu' :
+                                p.seriesName === 'GPU' ? 'gpu' :
+                                p.seriesName === 'MEM' ? 'mem' : 'sys';
+                    if (item[key] === null) val = '暂无数据';
+                    else val = val.toLocaleString();
+                }
+                res += `${p.marker} ${p.seriesName}：${val}<br/>`;
+            });
+            return res;
+        }
+
+        const chart1 = echarts.init(document.getElementById('chartCpuGpu'));
+        chart1.setOption({
+            tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: tooltipFormatter },
+            legend: { data: ['CPU', 'GPU'], textStyle: { color: '#333' }, top: 0, right: 10 },
+            grid: { left: '8%', right: '4%', bottom: '15%', top: '18%', containLabel: true },
+            xAxis: {
+                type: 'category',
+                data: models,
+                axisLabel: { color: '#333', fontSize: 11, rotate: 20, interval: 0 },
+                axisLine: { lineStyle: { color: '#d0d7de' } },
+            },
+            yAxis: {
+                type: 'value',
+                splitLine: { lineStyle: { color: '#e1e4e8', type: 'dashed' } },
+                axisLabel: { color: '#333', fontSize: 11 },
+                name: '分数',
+                nameTextStyle: { color: '#555', fontSize: 11 }
+            },
+            series: [
+                {
+                    name: 'CPU',
+                    type: 'bar',
+                    data: cpuData,
+                    itemStyle: { color: '#0366d6', borderRadius: [3,3,0,0] },
+                    barWidth: '30%'
+                },
+                {
+                    name: 'GPU',
+                    type: 'bar',
+                    data: gpuData,
+                    itemStyle: { color: '#6f42c1', borderRadius: [3,3,0,0] },
+                    barWidth: '30%'
+                }
+            ]
+        });
+
+        // 图表2：MEM & 系统
+        const chart2 = echarts.init(document.getElementById('chartMemSys'));
+        chart2.setOption({
+            tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: tooltipFormatter },
+            legend: { data: ['MEM', '系统'], textStyle: { color: '#333' }, top: 0, right: 10 },
+            grid: { left: '8%', right: '4%', bottom: '15%', top: '18%', containLabel: true },
+            xAxis: {
+                type: 'category',
+                data: models,
+                axisLabel: { color: '#333', fontSize: 11, rotate: 20, interval: 0 },
+                axisLine: { lineStyle: { color: '#d0d7de' } },
+            },
+            yAxis: {
+                type: 'value',
+                splitLine: { lineStyle: { color: '#e1e4e8', type: 'dashed' } },
+                axisLabel: { color: '#333', fontSize: 11 },
+                name: '分数',
+                nameTextStyle: { color: '#555', fontSize: 11 }
+            },
+            series: [
+                {
+                    name: 'MEM',
+                    type: 'bar',
+                    data: memData,
+                    itemStyle: { color: '#d73a49', borderRadius: [3,3,0,0] },
+                    barWidth: '30%'
+                },
+                {
+                    name: '系统',
+                    type: 'bar',
+                    data: sysData,
+                    itemStyle: { color: '#2ea043', borderRadius: [3,3,0,0] },
+                    barWidth: '30%'
+                }
+            ]
+        });
+
+        // 窗口自适应
+        window.addEventListener('resize', () => {
+            chart1.resize();
+            chart2.resize();
+        });
+
+        // 访问计数器（本地存储）
+        document.addEventListener('DOMContentLoaded', function() {
+            let count = parseInt(localStorage.getItem('socPageVisit') || '0') + 1;
+            localStorage.setItem('socPageVisit', count);
+            document.getElementById('visitCount').textContent = count;
+        });
+    </script>
+
+</body>
+</html>
