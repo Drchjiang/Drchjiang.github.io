@@ -366,6 +366,19 @@
             text-decoration: underline;
         }
 
+        /* ===== 品牌标签样式（低调蓝灰系） ===== */
+        .brand-label {
+            font-size: 16px;
+            font-weight: 700;
+            color: #a0c8e8;
+            background: rgba(0, 180, 255, 0.04);
+            padding: 0 10px;
+            border-radius: 4px;
+            border-left: 2px solid rgba(0, 180, 255, 0.2);
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+        }
+
         /* ===== 底部版权 ===== */
         .footer {
             margin-top: 30px;
@@ -423,6 +436,9 @@
             .note-text {
                 font-size: 10px;
             }
+            .brand-label {
+                font-size: 14px;
+            }
         }
 
         @media (max-width: 600px) {
@@ -460,6 +476,10 @@
             }
             .note-text {
                 font-size: 9px;
+            }
+            .brand-label {
+                font-size: 13px;
+                padding: 0 6px;
             }
         }
     </style>
@@ -565,20 +585,20 @@
                 <ul>
                     <li>
                         <span class="dot">▸</span>
-                        <span style="color:#8aa8d0;font-size:12px;">小米</span>
+                        <span class="brand-label">小米</span>
                         <a href="https://b23.tv/fHUECSt" target="_blank">小米盒子5</a>
                         <a href="https://b23.tv/cxhyPkD" target="_blank">小米盒子4s max</a>
                     </li>
                     <li>
                         <span class="dot">▸</span>
-                        <span style="color:#8aa8d0;font-size:12px;">腾讯极光</span>
+                        <span class="brand-label">腾讯极光</span>
                         <a href="https://b23.tv/4DGN5vE" target="_blank">极光盒子7air</a>
                         <a href="https://b23.tv/w7PyRMi" target="_blank">极光盒子3pro</a>
                         <a href="https://b23.tv/2xjSmiN" target="_blank">极光盒子6se</a>
                     </li>
                     <li>
                         <span class="dot">▸</span>
-                        <span style="color:#8aa8d0;font-size:12px;">当贝</span>
+                        <span class="brand-label">当贝</span>
                         <a href="https://b23.tv/7Hf2cyW" target="_blank">当贝盒子5（新）</a>
                     </li>
                 </ul>
@@ -592,7 +612,7 @@
     </div>
 
     <script>
-        // ==================== 主性能数据（GPU 与 内存+硬盘 交换） ====================
+        // ==================== 主性能数据（最终版本） ====================
         const devices = [{
             name: '当贝H5（新）',
             config: '2+64',
@@ -601,9 +621,9 @@
             process: '28nm',
             cpu: 26430,
             cores: '4核A53',
-            gpuScore: 12689,   // 原 mem
+            gpuScore: 12689,
             gpuName: 'Mali-G31 MP2',
-            mem: 35224,        // 原 gpuScore
+            mem: 35224,
             bandwidth: 5.4,
             sys: 17604,
             android: '12',
@@ -619,9 +639,9 @@
             process: '12nm',
             cpu: 29986,
             cores: '4核A55',
-            gpuScore: 18080,   // 原 mem
+            gpuScore: 18080,
             gpuName: 'Mali-G31 MP2',
-            mem: 41996,        // 原 gpuScore
+            mem: 41996,
             bandwidth: 8.5,
             sys: 23732,
             android: '9',
@@ -637,9 +657,9 @@
             process: '12nm',
             cpu: 31096,
             cores: '4核A55',
-            gpuScore: 18333,   // 原 mem
+            gpuScore: 18333,
             gpuName: 'Mali-G31 MP2',
-            mem: 43238,        // 原 gpuScore
+            mem: 43238,
             bandwidth: 6.0,
             sys: 26396,
             android: '9',
@@ -655,9 +675,9 @@
             process: '28nm',
             cpu: 29077,
             cores: '4核A53',
-            gpuScore: 0,       // 原 mem
+            gpuScore: 0,
             gpuName: 'Mali-G31 MP2',
-            mem: 36597,        // 原 gpuScore
+            mem: 36597,
             bandwidth: 6.1,
             sys: 10741,
             android: '10',
@@ -673,9 +693,9 @@
             process: '6nm',
             cpu: 41955,
             cores: '4核A55',
-            gpuScore: 42274,   // 原 mem
+            gpuScore: 42274,
             gpuName: 'Mali-G310 V2',
-            mem: 51245,        // 原 gpuScore
+            mem: 51245,
             bandwidth: 8.8,
             sys: 50690,
             android: '14',
@@ -691,9 +711,9 @@
             process: '6nm',
             cpu: 40963,
             cores: '4核A55',
-            gpuScore: 42968,   // 原 mem
+            gpuScore: 42968,
             gpuName: 'Mali-G310 V2',
-            mem: 49651,        // 原 gpuScore
+            mem: 49651,
             bandwidth: 8.6,
             sys: 30706,
             android: '14',
@@ -709,9 +729,9 @@
             process: '12nm',
             cpu: 27591,
             cores: '5核A55',
-            gpuScore: 36756,   // 原 mem
+            gpuScore: 36756,
             gpuName: 'Mali-G57',
-            mem: 45522,        // 原 gpuScore
+            mem: 45522,
             bandwidth: 9.5,
             sys: 24040,
             android: '11',
