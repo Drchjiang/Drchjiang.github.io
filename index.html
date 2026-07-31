@@ -3,342 +3,530 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>电视盒子 SoC 性能对比</title>
+    <title>电视盒子 · SoC 性能竞技场</title>
     <!-- 引入 ECharts -->
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js">
+    </script>
     <style>
-        /* 学术风格全局重置 */
+        /* ===== 全局科技暗色 ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: #ffffff;
-            color: #222222;
-            margin: 40px auto;
-            max-width: 1200px;
-            padding: 0 20px;
-            line-height: 1.6;
+            background: #0b0f1a;
+            font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;
+            color: #c8dbe9;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 30px 20px;
         }
-        h1, h2, h3 {
-            font-weight: 600;
-            color: #1a1a1a;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 6px;
-            margin-top: 1.8rem;
+
+        .container {
+            max-width: 1600px;
+            width: 100%;
+            background: rgba(12, 20, 35, 0.7);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-radius: 40px;
+            padding: 32px 36px 40px;
+            border: 1px solid rgba(0, 180, 255, 0.12);
+            box-shadow: 0 20px 60px rgba(0, 20, 80, 0.6);
         }
-        h1 {
-            font-size: 2.2rem;
-            border-bottom: 2px solid #eaecef;
-            padding-bottom: 12px;
+
+        /* ===== 头部 ===== */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            margin-bottom: 28px;
+            border-bottom: 1px solid rgba(0, 200, 255, 0.15);
+            padding-bottom: 16px;
         }
-        a {
-            color: #0366d6;
-            text-decoration: none;
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #7eb8ff, #a78bfa, #6b8cff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 1px;
+            text-shadow: 0 0 30px rgba(80, 140, 255, 0.25);
         }
-        a:hover {
-            text-decoration: underline;
+
+        /* ===== 表格容器 ===== */
+        .table-wrap {
+            overflow-x: auto;
+            border-radius: 20px;
+            background: rgba(8, 16, 30, 0.6);
+            border: 1px solid rgba(0, 180, 255, 0.08);
+            padding: 4px 0;
+            margin-bottom: 32px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 1.5rem 0;
-            font-size: 0.95rem;
-            background: #fafbfc;
-            border: 1px solid #d0d7de;
-            border-radius: 6px;
-            overflow: hidden;
+            font-size: 13px;
+            min-width: 1300px;
         }
+
         th {
-            background-color: #f6f8fa;
+            background: rgba(0, 160, 255, 0.08);
+            color: #7eb8ff;
+            font-weight: 500;
+            padding: 14px 10px;
             text-align: center;
-            padding: 12px 10px;
-            border-bottom: 2px solid #d0d7de;
-            font-weight: 600;
-            color: #24292e;
+            border-bottom: 2px solid rgba(0, 180, 255, 0.15);
+            letter-spacing: 0.5px;
+            font-size: 12px;
+            text-transform: uppercase;
+            white-space: nowrap;
         }
+
         td {
-            padding: 10px 8px;
+            padding: 12px 8px;
             text-align: center;
-            border-bottom: 1px solid #e1e4e8;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            color: #c8d6e8;
+            font-weight: 400;
+            vertical-align: middle;
         }
+
         tr:last-child td {
             border-bottom: none;
         }
-        tr:hover {
-            background-color: #f1f4f8;
+
+        tr:hover td {
+            background: rgba(0, 160, 255, 0.06);
         }
-        .missing {
-            color: #888;
-            font-style: italic;
-        }
-        .badge {
-            background: #f1f8ff;
-            color: #0366d6;
-            padding: 2px 10px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            border: 1px solid #c8e1ff;
-        }
+
         .model-name {
             font-weight: 600;
-            color: #000;
+            color: #d6e8ff;
+            white-space: nowrap;
         }
-        /* 图表容器 – 浅色风格 */
-        .chart-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 24px;
-            margin: 2rem 0;
-        }
-        .chart-box {
-            background: #ffffff;
-            border: 1px solid #d0d7de;
-            border-radius: 8px;
-            padding: 12px 12px 6px;
-        }
-        .chart-box .chart-title {
+
+        .badge {
+            display: inline-block;
+            padding: 2px 12px;
+            border-radius: 30px;
+            font-size: 11px;
             font-weight: 500;
-            color: #24292e;
-            font-size: 1rem;
-            margin-bottom: 8px;
-            padding-left: 4px;
+            background: rgba(0, 200, 255, 0.08);
+            border: 1px solid rgba(0, 200, 255, 0.12);
+            color: #8ccbff;
+            white-space: nowrap;
         }
+
+        .badge-tv {
+            background: rgba(255, 180, 50, 0.12);
+            border-color: rgba(255, 180, 50, 0.2);
+            color: #f5b85b;
+        }
+
+        .badge-chip {
+            background: rgba(100, 200, 255, 0.05);
+            border-color: rgba(100, 200, 255, 0.08);
+            color: #a0c8ff;
+        }
+
+        .score-highlight {
+            color: #b0d4ff;
+            font-weight: 500;
+        }
+
+        .missing {
+            color: #546a7a;
+            font-style: italic;
+        }
+
+        /* ===== 图表容器 ===== */
+        .chart-box {
+            background: rgba(8, 16, 30, 0.5);
+            border-radius: 24px;
+            border: 1px solid rgba(0, 180, 255, 0.08);
+            padding: 16px 16px 8px;
+            margin-top: 10px;
+        }
+
+        .chart-box .chart-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #a0c8e8;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+            padding-left: 6px;
+        }
+
         .chart-container {
             width: 100%;
-            height: 260px;
+            height: 280px;
         }
-        /* 页脚 */
+
+        /* ===== 底部 ===== */
         .footer {
-            margin-top: 3rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid #eaecef;
-            font-size: 0.9rem;
-            color: #586069;
+            margin-top: 30px;
+            font-size: 13px;
+            color: #3a5a7a;
             text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            padding-top: 18px;
+            letter-spacing: 0.5px;
         }
-        /* 响应式 */
-        @media (max-width: 750px) {
-            .chart-grid {
-                grid-template-columns: 1fr;
+
+        .footer a {
+            color: #7eb8ff;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer a:hover {
+            color: #a78bfa;
+            text-decoration: underline;
+        }
+
+        .footer span {
+            color: #5a7a9a;
+        }
+
+        /* ===== 响应式 ===== */
+        @media (max-width: 1100px) {
+            .container {
+                padding: 20px 16px;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            th,
+            td {
+                font-size: 11px;
+                padding: 8px 4px;
             }
             table {
-                font-size: 0.8rem;
+                min-width: 1000px;
             }
-            th, td {
-                padding: 6px 4px;
-            }
-        }
-        /* 引用风格 (像学术页的引用块) */
-        .quote-box {
-            margin: 2rem 0 1rem;
-            padding: 1.2rem 2rem;
-            background: #f6f8fa;
-            border-left: 4px solid #d0d7de;
-            font-style: italic;
-            color: #444;
-            border-radius: 4px;
-        }
-        .quote-box span {
-            background: white;
-            padding: 4px 12px;
-            border-radius: 4px;
-        }
-        .quote-box .author {
-            margin-top: 8px;
-            font-size: 0.9rem;
-            color: #666;
         }
     </style>
 </head>
 <body>
 
-    <!-- 标题区 -->
-    <h1>⚡ 电视盒子 SoC 性能竞技场</h1>
-    <p style="color: #586069; margin-top: -10px;">基于安兔兔跑分 · 数据持续更新</p>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <div>
+                <h1>⚡ 电视盒子芯片性能PK</h1>
+                <div style="height:2px;width:120px;background:linear-gradient(90deg,transparent,#4f8cff,#a78bfa,transparent);margin-top:4px;"></div>
+            </div>
+        </div>
 
-    <!-- 数据表格 -->
-    <h2>📊 详细规格与跑分</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>型号</th>
-                <th>安卓版本</th>
-                <th>核心</th>
-                <th>制程</th>
-                <th>安兔兔 CPU</th>
-                <th>安兔兔 GPU</th>
-                <th>安兔兔 MEM</th>
-                <th>安兔兔 系统</th>
-            </tr>
-        </thead>
-        <tbody id="socTableBody">
-            <!-- 由 JS 动态渲染 -->
-        </tbody>
-    </table>
+        <!-- 表格 -->
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>名称</th>
+                        <th>配置<br><span style="font-weight:300;font-size:10px;">(内存+硬盘)</span></th>
+                        <th>芯片</th>
+                        <th>总分</th>
+                        <th>制程</th>
+                        <th>CPU</th>
+                        <th>核心</th>
+                        <th>GPU<br><span style="font-weight:300;font-size:10px;">(跑分)</span></th>
+                        <th>GPU名称</th>
+                        <th>MEM</th>
+                        <th>内存带宽<br><span style="font-weight:300;font-size:10px;">(G/s)</span></th>
+                        <th>系统跑分</th>
+                        <th>安卓</th>
+                        <th>网口</th>
+                        <th>Wi-Fi</th>
+                        <th>USB</th>
+                    </tr>
+                </thead>
+                <tbody id="socTableBody">
+                    <!-- JS 渲染 -->
+                </tbody>
+            </table>
+        </div>
 
-    <!-- 图表 -->
-    <h2>📈 性能可视化</h2>
-    <div class="chart-grid">
+        <!-- CPU & GPU & 总分 对比图 -->
         <div class="chart-box">
-            <div class="chart-title">CPU & GPU</div>
+            <div class="chart-title">📊 性能三围：总分 · CPU · GPU</div>
             <div id="chartCpuGpu" class="chart-container"></div>
         </div>
-        <div class="chart-box">
-            <div class="chart-title">MEM & 系统</div>
-            <div id="chartMemSys" class="chart-container"></div>
+
+        <div class="footer">
+            <span>该数据来源于B站数码区UP主 <a href="https://space.bilibili.com/390423616/lists/7672860?type=season" target="_blank">当时只道是-寻常-</a>。</span>
         </div>
-    </div>
-
-    <!-- 引用块（模仿学术页风格） -->
-    <div class="quote-box">
-        <span>“数据是新的石油，而分析是内燃机。” – 佚名</span>
-        <div class="author">—— 仅供技术参考</div>
-    </div>
-
-    <div class="footer">
-        <span>数据来源：用户提供 · 雷鸟鹏6 部分数据暂缺</span><br />
-        <span style="font-size:0.8rem;">页面访问次数: <strong id="visitCount">0</strong></span>
     </div>
 
     <script>
-        // ---------- 数据 ----------
-        const socData = [
-            { model: '小米4s max', android: '9', cores: '4核A55', process: '12nm', cpu: 29986, gpu: 18080, mem: 41996, sys: 23732 },
-            { model: '极光3pro',   android: '9', cores: '4核A55', process: '12nm', cpu: 31096, gpu: 18333, mem: 43238, sys: 26396 },
-            { model: '极光6se',    android: '10', cores: '4核A53', process: '28nm', cpu: 29077, gpu: 0,     mem: 36597, sys: 10741 },
-            { model: '极光7air',   android: '14', cores: '4核A55', process: '6nm',  cpu: 41955, gpu: 42274, mem: 51245, sys: 50690 },
-            { model: '小米5',      android: '14', cores: '4核A55', process: '6nm',  cpu: 40963, gpu: 42968, mem: 49651, sys: 30706 },
-            { model: '雷鸟鹏6',    android: '11', cores: '5核A55', process: '12nm', cpu: null,  gpu: null,  mem: null,  sys: null }
-        ];
+        // ==================== 数据（GPU名称已全部补全） ====================
+        const devices = [{
+            name: '当贝H5（新）',
+            config: '2+64',
+            chip: '全志618',
+            total: 91947,
+            process: '28nm',
+            cpu: 26430,
+            cores: '4核A53',
+            gpuScore: 17604,
+            gpuName: 'Mali-G31 MP2',
+            mem: 12689,
+            bandwidth: 64,
+            sys: 35224,
+            android: '12',
+            eth: '无',
+            wifi: '双频WiFi5',
+            usb: '2.0',
+            isTv: false
+        }, {
+            name: '小米4s max',
+            config: '4+64',
+            chip: '晶晨S905X3',
+            total: 113794,
+            process: '12nm',
+            cpu: 29986,
+            cores: '4核A55',
+            gpuScore: 23732,
+            gpuName: 'Mali-G31 MP2',
+            mem: 18080,
+            bandwidth: 91,
+            sys: 41996,
+            android: '9',
+            eth: '无',
+            wifi: '双频WiFi5',
+            usb: '2.0',
+            isTv: false
+        }, {
+            name: '极光3pro',
+            config: '4+32',
+            chip: '晶晨S905X3',
+            total: 119063,
+            process: '12nm',
+            cpu: 31096,
+            cores: '4核A55',
+            gpuScore: 26396,
+            gpuName: 'Mali-G31 MP2',
+            mem: 18333,
+            bandwidth: 91,
+            sys: 43238,
+            android: '9',
+            eth: '千兆',
+            wifi: '双频WiFi5',
+            usb: '2.0+3.0',
+            isTv: false
+        }, {
+            name: '极光6se',
+            config: '1+32',
+            chip: '全志618',
+            total: 76415,
+            process: '28nm',
+            cpu: 29077,
+            cores: '4核A53',
+            gpuScore: 10741,
+            gpuName: 'Mali-G31 MP2',
+            mem: 0,
+            bandwidth: 65,
+            sys: 36597,
+            android: '10',
+            eth: '百兆',
+            wifi: '2.4G WiFi',
+            usb: '2.0',
+            isTv: false
+        }, {
+            name: '极光7air',
+            config: '4+32',
+            chip: '晶晨S905X5M',
+            total: 186164,
+            process: '6nm',
+            cpu: 41955,
+            cores: '4核A55',
+            gpuScore: 50690,
+            gpuName: 'Mali-G310 V2',
+            mem: 42274,
+            bandwidth: 225,
+            sys: 51245,
+            android: '14',
+            eth: '百兆',
+            wifi: '双频WiFi6',
+            usb: '2.0+Type-C',
+            isTv: false
+        }, {
+            name: '小米5',
+            config: '2+32',
+            chip: '晶晨S905X5M',
+            total: 164288,
+            process: '6nm',
+            cpu: 40963,
+            cores: '4核A55',
+            gpuScore: 30706,
+            gpuName: 'Mali-G310 V2',
+            mem: 42968,
+            bandwidth: 14,
+            sys: 49651,
+            android: '14',
+            eth: '无',
+            wifi: '双频WiFi6',
+            usb: '2.0',
+            isTv: false
+        }, {
+            name: '雷鸟鹏6',
+            config: '3+64',
+            chip: '晶晨TC8000',
+            total: 133909,
+            process: '12nm',
+            cpu: 27591,
+            cores: '5核A55',
+            gpuScore: 24040,
+            gpuName: 'Mali-G57',
+            mem: 36756,
+            bandwidth: 195,
+            sys: 45522,
+            android: '11',
+            eth: '百兆',
+            wifi: '双频WiFi5',
+            usb: '2.0+3.0',
+            isTv: true
+        }];
 
-        // 渲染表格
+        // ==================== 渲染表格 ====================
         const tbody = document.getElementById('socTableBody');
-        socData.forEach(item => {
-            const row = document.createElement('tr');
-            const cpuVal = (item.cpu !== null) ? item.cpu.toLocaleString() : '<span class="missing">暂无</span>';
-            const gpuVal = (item.gpu !== null) ? item.gpu.toLocaleString() : '<span class="missing">暂无</span>';
-            const memVal = (item.mem !== null) ? item.mem.toLocaleString() : '<span class="missing">暂无</span>';
-            const sysVal = (item.sys !== null) ? item.sys.toLocaleString() : '<span class="missing">暂无</span>';
-            row.innerHTML = `
-                <td class="model-name">${item.model}</td>
-                <td><span class="badge">${item.android}</span></td>
-                <td>${item.cores}</td>
-                <td><span class="badge" style="background:#e6f0fa;color:#1a5a8c;">${item.process}</span></td>
-                <td>${cpuVal}</td>
-                <td>${gpuVal}</td>
-                <td>${memVal}</td>
-                <td>${sysVal}</td>
+        devices.forEach(d => {
+            const tr = document.createElement('tr');
+            let nameHtml = `<span class="model-name">${d.name}</span>`;
+            if (d.isTv) {
+                nameHtml += ` <span class="badge badge-tv">电视</span>`;
+            }
+            const bandwidthVal = d.bandwidth !== null ? d.bandwidth : '—';
+            const gpuNameVal = d.gpuName || '—';
+            const memVal = d.mem !== null ? d.mem : '—';
+            const sysVal = d.sys !== null ? d.sys : '—';
+            tr.innerHTML = `
+                <td>${nameHtml}</td>
+                <td>${d.config}</td>
+                <td><span class="badge badge-chip">${d.chip}</span></td>
+                <td class="score-highlight">${d.total.toLocaleString()}</td>
+                <td><span class="badge" style="background:rgba(0,200,255,0.04);border-color:rgba(0,200,255,0.08);">${d.process}</span></td>
+                <td class="score-highlight">${d.cpu.toLocaleString()}</td>
+                <td>${d.cores}</td>
+                <td class="score-highlight">${d.gpuScore.toLocaleString()}</td>
+                <td>${gpuNameVal}</td>
+                <td class="score-highlight">${memVal.toLocaleString()}</td>
+                <td>${bandwidthVal}</td>
+                <td class="score-highlight">${sysVal.toLocaleString()}</td>
+                <td><span class="badge">${d.android}</span></td>
+                <td>${d.eth}</td>
+                <td>${d.wifi}</td>
+                <td>${d.usb}</td>
             `;
-            tbody.appendChild(row);
+            tbody.appendChild(tr);
         });
 
-        // ---------- 图表：CPU & GPU ----------
-        const models = socData.map(d => d.model);
-        const cpuData = socData.map(d => d.cpu !== null ? d.cpu : 0);
-        const gpuData = socData.map(d => d.gpu !== null ? d.gpu : 0);
-        const memData = socData.map(d => d.mem !== null ? d.mem : 0);
-        const sysData = socData.map(d => d.sys !== null ? d.sys : 0);
+        // ==================== 绘制 CPU & GPU & 总分 柱状图 ====================
+        const chartDom = document.getElementById('chartCpuGpu');
+        const myChart = echarts.init(chartDom);
 
-        // 通用 tooltip 处理缺失值
-        function tooltipFormatter(params) {
-            let res = `<strong>${params[0].axisValue}</strong><br/>`;
-            params.forEach(p => {
-                const item = socData.find(d => d.model === p.axisValue);
-                let val = p.value;
-                if (item) {
-                    const key = p.seriesName === 'CPU' ? 'cpu' :
-                                p.seriesName === 'GPU' ? 'gpu' :
-                                p.seriesName === 'MEM' ? 'mem' : 'sys';
-                    if (item[key] === null) val = '暂无数据';
-                    else val = val.toLocaleString();
+        const models = devices.map(d => d.name);
+        const cpuData = devices.map(d => d.cpu);
+        const gpuData = devices.map(d => d.gpuScore);
+        const totalData = devices.map(d => d.total);
+
+        const option = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { type: 'shadow' },
+                formatter: function(params) {
+                    let res = `<strong>${params[0].axisValue}</strong><br/>`;
+                    params.forEach(p => {
+                        res += `${p.marker} ${p.seriesName}：${p.value.toLocaleString()}<br/>`;
+                    });
+                    return res;
                 }
-                res += `${p.marker} ${p.seriesName}：${val}<br/>`;
-            });
-            return res;
-        }
-
-        const chart1 = echarts.init(document.getElementById('chartCpuGpu'));
-        chart1.setOption({
-            tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: tooltipFormatter },
-            legend: { data: ['CPU', 'GPU'], textStyle: { color: '#333' }, top: 0, right: 10 },
-            grid: { left: '8%', right: '4%', bottom: '15%', top: '18%', containLabel: true },
+            },
+            legend: {
+                data: ['总分', 'CPU', 'GPU'],
+                textStyle: { color: '#b0cce0' },
+                top: 0,
+                right: 10
+            },
+            grid: {
+                left: '6%',
+                right: '4%',
+                bottom: '15%',
+                top: '18%',
+                containLabel: true
+            },
             xAxis: {
                 type: 'category',
                 data: models,
-                axisLabel: { color: '#333', fontSize: 11, rotate: 20, interval: 0 },
-                axisLine: { lineStyle: { color: '#d0d7de' } },
+                axisLabel: {
+                    color: '#8aa8d0',
+                    fontSize: 11,
+                    rotate: 20,
+                    interval: 0
+                },
+                axisLine: { lineStyle: { color: '#2a3a5a' } },
             },
             yAxis: {
                 type: 'value',
-                splitLine: { lineStyle: { color: '#e1e4e8', type: 'dashed' } },
-                axisLabel: { color: '#333', fontSize: 11 },
-                name: '分数',
-                nameTextStyle: { color: '#555', fontSize: 11 }
+                splitLine: { lineStyle: { color: '#1a2a3a', type: 'dashed' } },
+                axisLabel: { color: '#8aa8d0', fontSize: 11 },
+                name: '跑分',
+                nameTextStyle: { color: '#6a8aaa', fontSize: 12 }
             },
-            series: [
-                {
-                    name: 'CPU',
-                    type: 'bar',
-                    data: cpuData,
-                    itemStyle: { color: '#0366d6', borderRadius: [3,3,0,0] },
-                    barWidth: '30%'
+            series: [{
+                name: '总分',
+                type: 'bar',
+                data: totalData,
+                itemStyle: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                        { offset: 0, color: '#f472b6' },
+                        { offset: 1, color: '#be5a9a' }
+                    ]),
+                    borderRadius: [4, 4, 0, 0]
                 },
-                {
-                    name: 'GPU',
-                    type: 'bar',
-                    data: gpuData,
-                    itemStyle: { color: '#6f42c1', borderRadius: [3,3,0,0] },
-                    barWidth: '30%'
-                }
-            ]
-        });
-
-        // 图表2：MEM & 系统
-        const chart2 = echarts.init(document.getElementById('chartMemSys'));
-        chart2.setOption({
-            tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: tooltipFormatter },
-            legend: { data: ['MEM', '系统'], textStyle: { color: '#333' }, top: 0, right: 10 },
-            grid: { left: '8%', right: '4%', bottom: '15%', top: '18%', containLabel: true },
-            xAxis: {
-                type: 'category',
-                data: models,
-                axisLabel: { color: '#333', fontSize: 11, rotate: 20, interval: 0 },
-                axisLine: { lineStyle: { color: '#d0d7de' } },
-            },
-            yAxis: {
-                type: 'value',
-                splitLine: { lineStyle: { color: '#e1e4e8', type: 'dashed' } },
-                axisLabel: { color: '#333', fontSize: 11 },
-                name: '分数',
-                nameTextStyle: { color: '#555', fontSize: 11 }
-            },
-            series: [
-                {
-                    name: 'MEM',
-                    type: 'bar',
-                    data: memData,
-                    itemStyle: { color: '#d73a49', borderRadius: [3,3,0,0] },
-                    barWidth: '30%'
+                barWidth: '18%',
+                barGap: '60%'
+            }, {
+                name: 'CPU',
+                type: 'bar',
+                data: cpuData,
+                itemStyle: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                        { offset: 0, color: '#6b8cff' },
+                        { offset: 1, color: '#4f6bc0' }
+                    ]),
+                    borderRadius: [4, 4, 0, 0]
                 },
-                {
-                    name: '系统',
-                    type: 'bar',
-                    data: sysData,
-                    itemStyle: { color: '#2ea043', borderRadius: [3,3,0,0] },
-                    barWidth: '30%'
-                }
-            ]
-        });
+                barWidth: '18%',
+                barGap: '60%'
+            }, {
+                name: 'GPU',
+                type: 'bar',
+                data: gpuData,
+                itemStyle: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                        { offset: 0, color: '#a78bfa' },
+                        { offset: 1, color: '#7c5cdb' }
+                    ]),
+                    borderRadius: [4, 4, 0, 0]
+                },
+                barWidth: '18%',
+                barGap: '60%'
+            }]
+        };
 
-        // 窗口自适应
+        myChart.setOption(option);
+
+        // 自适应
         window.addEventListener('resize', () => {
-            chart1.resize();
-            chart2.resize();
-        });
-
-        // 访问计数器（本地存储）
-        document.addEventListener('DOMContentLoaded', function() {
-            let count = parseInt(localStorage.getItem('socPageVisit') || '0') + 1;
-            localStorage.setItem('socPageVisit', count);
-            document.getElementById('visitCount').textContent = count;
+            myChart.resize();
         });
     </script>
 
