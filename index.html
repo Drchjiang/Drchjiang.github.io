@@ -32,7 +32,7 @@
             padding: 32px 36px 40px;
             border: 1px solid rgba(0, 180, 255, 0.12);
             box-shadow: 0 20px 60px rgba(0, 20, 80, 0.6);
-            transition: filter 0.3s, backdrop-filter 0.3s;
+            transition: filter 0.3s;
         }
         .container.blur {
             filter: blur(4px);
@@ -179,6 +179,7 @@
             color: #c8d6e8;
             font-weight: 400;
             vertical-align: middle;
+            white-space: nowrap;
         }
         tr:last-child td {
             border-bottom: none;
@@ -253,6 +254,7 @@
             color: #8aa8d0;
             font-size: 12px;
             margin-left: 2px;
+            white-space: nowrap;
         }
         /* ===== 图表 ===== */
         .chart-box {
@@ -804,7 +806,10 @@
             tbody.innerHTML = data.map(item => {
                 const nameHtml =
                     `${item.name}${item.name === '雷鸟鹏6' ? ' <span class="badge badge-tv">电视</span>' : ''}`;
-                const cells = headers.map(key => getAvCell(item.name, key, item[key])).join('');
+                const cells = headers.map(key => {
+                    const supported = item[key];
+                    return `<td>${getAvCell(item.name, key, supported)}</td>`;
+                }).join('');
                 return `<tr><td>${nameHtml}</td>${cells}</tr>`;
             }).join('');
         }
